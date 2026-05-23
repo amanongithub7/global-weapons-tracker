@@ -1,0 +1,73 @@
+name: Germany
+code: DE
+region: Europe
+
+producers:
+  - name: Rheinmetall
+    type: defense_contractor
+    products:
+      - Leopard 2 main battle tank
+      - KF51 Panther main battle tank
+      - Marder infantry fighting vehicle
+      - Lynx infantry fighting vehicle
+      - Skynex air defense system
+    revenue: 7.1B
+    revenue_year: 2023
+    employees: 30000
+
+  - name: ThyssenKrupp Marine Systems (TKMS)
+    type: defense_contractor
+    products:
+      - Type 214 submarines
+      - Type 209 submarines
+      - Type 212A submarines
+      - MEKO-class frigates
+    employees: 7000
+
+  - name: Hensoldt
+    type: defense_electronics
+    products:
+      - TRML-4D radar systems
+      - Spexer radar sensors
+      - Electronic warfare systems
+      - Optronics and targeting systems
+    revenue: 1.8B
+    revenue_year: 2023
+    employees: 6500
+
+  - name: Diehl Defence
+    type: defense_contractor
+    products:
+      - IRIS-T air-to-air missile
+      - IRIS-T SLM air defense system
+      - IDAS missile system
+      - DM-series artillery ammunition
+    employees: 5000
+
+  - name: KNDS (KMW+Nexter)
+    type: defense_contractor
+    products:
+      - Leopard 2 A7/A8 main battle tank
+      - PzH 2000 self-propelled howitzer
+      - Boxer armored vehicle
+      - Dingo protected vehicle
+    revenue: 3.2B
+    revenue_year: 2022
+    employees: 10000
+
+top_export_destinations:
+  - country: Israel
+    notes: Dolphin-class submarines (TKMS-built), Leopard 2 parts
+  - country: South Korea
+    notes: Type 214 submarines (license-built), tank technology
+  - country: Norway
+    notes: Leopard 2 tanks, IRIS-T missiles, submarines
+  - country: Egypt
+    notes: Type 209 submarines, MRO support
+  - country: Singapore
+    notes: Type 218SG submarines, Leopard 2SG tanks
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "German Federal Ministry of Economics export reports", url: "https://www.bmwk.de/Redaktion/EN/Publikationen/ruestungsexportbericht-2023.html" }
+  - { name: "Rheinmetall Annual Report 2023", url: "https://www.rheinmetall.com/en/investor-relations" }

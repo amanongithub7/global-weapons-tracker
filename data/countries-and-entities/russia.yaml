@@ -1,0 +1,76 @@
+name: Russia
+code: RU
+region: Europe / Eurasia
+
+producers:
+  - name: Rostec (State Corporation)
+    type: state_holding
+    products:
+      - Su-57 Felon fighter jet
+      - Su-35 Flanker-E fighter
+      - T-14 Armata tank
+      - T-90M Proryv tank
+      - Kalibr cruise missiles
+      - S-400 Triumf air defense
+      - S-500 Prometey air defense
+    revenue: 81.2B
+    revenue_year: 2022
+    employees: 1700000 (group total)
+    notes: State-owned conglomerate encompassing most Russian defense industry
+
+  - name: Almaz-Antey
+    type: defense_contractor
+    products:
+      - S-400 Triumf air defense system
+      - S-500 Prometey air defense system
+      - Buk-M3 air defense system
+      - Pantsir-S1 air defense
+    revenue: 12.5B
+    revenue_year: 2021
+    employees: 100000
+
+  - name: United Shipbuilding Corporation (USC)
+    type: state_corporation
+    products:
+      - Borei-class nuclear submarines
+      - Yasen-class nuclear submarines
+      - Admiral Gorshkov-class frigates
+      - Buyan-M corvettes
+    revenue: 6.8B
+    revenue_year: 2021
+    employees: 80000
+
+  - name: Tactical Missiles Corporation (KTRV)
+    type: defense_contractor
+    products:
+      - Kh-101 cruise missiles
+      - Kh-59 air-to-surface missiles
+      - R-77 air-to-air missiles
+      - 3M14 Kalibr cruise missiles
+    employees: 30000
+
+  - name: Uralvagonzavod (UVZ)
+    type: defense_contractor
+    products:
+      - T-14 Armata main battle tank
+      - T-90M Proryv main battle tank
+      - T-72B3 upgrade
+      - BMPT Terminator
+    employees: 30000
+
+top_export_destinations:
+  - country: India
+    notes: S-400 systems, Su-30MKI, T-90 tanks, frigates
+  - country: China
+    notes: Su-35 fighters, S-400 systems, AL-31 engines
+  - country: Algeria
+    notes: Su-30MKA, T-90SA tanks, Kilo-class submarines
+  - country: Egypt
+    notes: Su-35 fighters (pending/delayed), S-400 (negotiated)
+  - country: Vietnam
+    notes: Kilo-class submarines, Su-30MK2 fighters, T-90S tanks
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "Rostec Annual Report 2022", url: "https://rostec.ru/en/about/" }
+  - { name: "SIPRI Top 100 Arms-Producing and Military Services Companies", url: "https://www.sipri.org/research/armament-and-disarmament/arms-transfers-and-military-spending/arms-production/military-spending-and-arms-production-sipri-top-100" }

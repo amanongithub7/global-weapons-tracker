@@ -1,0 +1,75 @@
+name: China
+code: CN
+region: Asia-Pacific
+
+producers:
+  - name: China State Shipbuilding Corporation (CSSC)
+    type: state_owned
+    products:
+      - Type 055 destroyer (Nanchang-class)
+      - Type 052D destroyer (Luyang III-class)
+      - Type 039A submarines (Yuan-class)
+      - Type 003 aircraft carrier (Fujian)
+    revenue: 65.5B
+    revenue_year: 2023
+    employees: 310000
+    notes: Formed from merger of CSIC and CIMC
+
+  - name: China North Industries Group Corporation (NORINCO)
+    type: state_owned
+    products:
+      - Type 99A main battle tank
+      - PLZ-05 self-propelled howitzer
+      - HJ-12 anti-tank missile
+      - VT-4 main battle tank (export)
+      - Red Arrow anti-tank systems
+    revenue: 82.3B
+    revenue_year: 2023
+    employees: 200000
+
+  - name: Aviation Industry Corporation of China (AVIC)
+    type: state_owned
+    products:
+      - J-20 Mighty Dragon stealth fighter
+      - J-16 multirole fighter
+      - Y-20 Kunpeng transport aircraft
+      - Z-10 attack helicopter
+      - Wing Loong drones
+    revenue: 71.8B
+    revenue_year: 2023
+    employees: 450000
+
+  - name: China Aerospace Science and Industry Corporation (CASIC)
+    type: state_owned
+    products:
+      - DF-21D anti-ship ballistic missile
+      - DF-41 intercontinental ballistic missile
+      - HQ-9 surface-to-air missile
+      - YJ-18 anti-ship cruise missile
+    employees: 170000
+
+  - name: China South Industries Group (CSGC)
+    type: state_owned
+    products:
+      - Small arms and ammunition
+      - Armored vehicles
+      - WZ-551 armored personnel carrier
+      - CS/VP3 mine-protected vehicle
+    employees: 190000
+
+top_export_destinations:
+  - country: Pakistan
+    notes: JF-17 Thunder fighters, Type 054 frigates, submarines, tanks
+  - country: Bangladesh
+    notes: Type 035 submarines, C-802 missiles, frigates
+  - country: Myanmar
+    notes: JF-17 fighters, naval vessels, armored vehicles
+  - country: Thailand
+    notes: S-26T submarines (delayed), VT-4 tanks, frigates
+  - country: Nigeria
+    notes: Wing Loong drones, VT-4 tanks, patrol boats
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "SIPRI Top 100 Arms-Producing and Military Services Companies", url: "https://www.sipri.org/research/armament-and-disarmament/arms-transfers-and-military-spending/arms-production/military-spending-and-arms-production-sipri-top-100" }
+  - { name: "IISS Military Balance 2024", url: "https://www.iiss.org/publications/the-military-balance/" }

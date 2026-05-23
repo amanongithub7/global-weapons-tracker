@@ -1,0 +1,65 @@
+name: Hindustan Aeronautics Limited (HAL)
+country: India
+type: state_owned
+founded: 1940
+
+key_programs:
+  - name: HAL Tejas
+    type: light_fighter_aircraft
+    status: active_production
+    description: Indigenous 4th-generation light combat aircraft, Mk1 and Mk1A variants
+
+  - name: HAL Dhruv (ALH)
+    type: utility_helicopter
+    status: active_production
+    description: Advanced Light Helicopter (joint with MBB/Kawasaki design assistance)
+
+  - name: HAL Prachand (LCH)
+    type: attack_helicopter
+    status: active_production
+    description: Light Combat Helicopter, purpose-built for high-altitude operations
+
+  - name: Su-30MKI Licensed Production
+    type: fighter_aircraft
+    status: ongoing
+    description: Licensed assembly and production of Su-30MKI under Russian license
+
+suppliers:
+  - name: GE Aviation
+    country: United States
+    supplies: F404-GE-IN20 engines (Tejas Mk1), F414 engines (Tejas Mk2/AMCA)
+    relationship: sole_source_engine
+
+  - name: Elbit Systems
+    country: Israel
+    supplies: Avionics, helmet-mounted displays, flight control computers
+    relationship: tier_1
+
+  - name: Thales
+    country: France
+    supplies: Avionics suite components, navigation systems
+    relationship: supplier
+
+  - name: UAC/Rostec
+    country: Russia
+    supplies: Su-30MKI kits, AL-31FP engines, technical support
+    relationship: licensing_partner
+
+  - name: Bharat Electronics Limited (BEL)
+    country: India
+    supplies: Radar systems, EW suites, communication systems
+    relationship: domestic_partner
+
+  - name: Safran
+    country: France
+    supplies: Landing gear, engine components (Shakti engine for Dhruv)
+    relationship: supplier
+
+  - name: Martin-Baker
+    country: United Kingdom
+    supplies: Ejection seats (IN16G series for Tejas)
+    relationship: supplier
+
+sources:
+  - { name: "HAL Annual Report 2022-23", url: "https://www.hal-india.co.in/Annual_Reports" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

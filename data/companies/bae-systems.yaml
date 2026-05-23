@@ -1,0 +1,60 @@
+name: BAE Systems
+country: United Kingdom
+type: prime_contractor
+founded: 1999
+
+key_programs:
+  - name: Eurofighter Typhoon
+    type: fighter_aircraft
+    status: active_production
+    description: 4th-generation multirole fighter (joint with Airbus, Leonardo)
+
+  - name: Dreadnought-class submarines
+    type: submarine
+    status: in_development
+    description: UK's next-generation nuclear deterrent submarine
+
+  - name: M777 Howitzer
+    type: artillery
+    status: active_production
+    description: 155mm lightweight towed howitzer
+
+  - name: CV90 Infantry Fighting Vehicle
+    type: armored_vehicle
+    status: active_production
+    description: Tracked infantry fighting vehicle
+
+  - name: Advanced Precision Kill Weapon System (APKWS)
+    type: guided_rocket
+    status: active_production
+    description: Laser-guided 2.75-inch rocket system
+
+suppliers:
+  - name: Rolls-Royce
+    country: United Kingdom
+    supplies: Nuclear propulsion systems (submarines), MT30 gas turbines (frigates/destroyers)
+    relationship: tier_1
+
+  - name: MBDA UK
+    country: United Kingdom
+    supplies: Missile systems (ASRAAM, Brimstone, Storm Shadow/Spear)
+    relationship: integration_partner
+
+  - name: Thales UK
+    country: United Kingdom (French-owned)
+    supplies: Radar systems, sonar, electro-optics
+    relationship: supplier
+
+  - name: Leonardo UK
+    country: Italy (UK division)
+    supplies: Gripen avionics, Eurofighter electronics
+    relationship: supplier
+
+  - name: General Dynamics UK
+    country: United Kingdom (US-owned)
+    supplies: Ajax armored vehicle (co-development)
+    relationship: partner
+
+sources:
+  - { name: "BAE Systems Annual Report 2023", url: "https://www.baesystems.com/en/investors" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

@@ -1,0 +1,73 @@
+name: Turkey
+code: TR
+region: Middle East / Eurasia
+
+producers:
+  - name: Baykar
+    type: private
+    products:
+      - Bayraktar TB2 drone
+      - Bayraktar Akıncı drone
+      - Bayraktar Kızılelma (jet-powered drone)
+    revenue: 1.8B
+    revenue_year: 2023
+    employees: 5000
+
+  - name: Turkish Aerospace Industries (TAI)
+    type: state_majority
+    products:
+      - TAI Anka drone
+      - TAI Aksungur drone
+      - TAI TF-X Kaan (5th-gen fighter)
+      - T-129 ATAK attack helicopter
+      - T-925 helicopter
+    revenue: 3.0B
+    revenue_year: 2023
+    employees: 15000
+
+  - name: ASELSAN
+    type: defense_electronics
+    products:
+      - Electronic warfare systems
+      - Radar systems
+      - Communication systems
+      - Electro-optical systems
+      - Air defense systems (Korkut, Hisar)
+    revenue: 3.5B
+    revenue_year: 2023
+    employees: 10000
+
+  - name: BMC
+    type: land_systems
+    products:
+      - Altay main battle tank
+      - Kirpi MRAP vehicles
+      - Amazon armored vehicles
+      - Vuran tactical vehicles
+    employees: 4000
+
+  - name: Roketsan
+    type: missile_systems
+    products:
+      - Bora tactical ballistic missile
+      - TRG-300 Tiger rocket system
+      - Cirit laser-guided missile
+      - MAM smart micro munitions
+      - Karaok anti-tank missile
+    employees: 3000
+
+top_export_destinations:
+  - country: Pakistan
+    notes: Bayraktar TB2 drones, MILGEM corvettes
+  - country: Qatar
+    notes: Bayraktar TB2, Kirpi MRAPs, naval vessels
+  - country: Ukraine
+    notes: Bayraktar TB2 drones, satellite ground stations
+  - country: Azerbaijan
+    notes: Bayraktar TB2, T-129 ATAK, armored vehicles
+  - country: Poland
+    notes: Bayraktar TB2, Roketsan systems
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "Turkish Defence Industry Agency (SSB)", url: "https://www.ssb.gov.tr" }

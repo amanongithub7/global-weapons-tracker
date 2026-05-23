@@ -1,0 +1,83 @@
+name: Lockheed Martin
+country: United States
+type: prime_contractor
+founded: 1995
+
+key_programs:
+  - name: F-35 Lightning II
+    type: fighter_aircraft
+    status: active_production
+    unit_cost: 82.5M (F-35A)
+    description: 5th-generation multirole stealth fighter
+
+  - name: THAAD
+    type: missile_defense
+    status: active_production
+    description: Terminal High Altitude Area Defense system
+
+  - name: F-16 Fighting Falcon
+    type: fighter_aircraft
+    status: active_production
+    description: 4th-generation multirole fighter
+    notes: Produced under license in multiple countries
+
+  - name: Space-based infrared systems (SBIRS)
+    type: satellite
+    status: operational
+    description: Missile warning satellite constellation
+
+suppliers:
+  - name: Pratt & Whitney (RTX)
+    country: United States
+    supplies: F135 engines for F-35
+    relationship: sole_source
+
+  - name: BAE Systems
+    country: United Kingdom
+    supplies: Electronic warfare systems, sensors for F-35
+    relationship: tier_1
+
+  - name: Northrop Grumman
+    country: United States
+    supplies: DAS (Distributed Aperture System), APG-81 radar, center fuselage for F-35
+    relationship: tier_1
+
+  - name: GE Aviation
+    country: United States
+    supplies: F110 engines (for F-16), avionics
+    relationship: supplier
+
+  - name: Honeywell
+    country: United States
+    supplies: Flight management systems, navigation
+    relationship: supplier
+
+  - name: Harris Corporation (L3Harris)
+    country: United States
+    supplies: Communication systems, sensors
+    relationship: supplier
+
+  - name: RUAG
+    country: Switzerland
+    supplies: F/A-18 depot-level MRO
+    relationship: maintenance_partner
+
+  - name: Terma
+    country: Denmark
+    supplies: F-16 electronic warfare systems, pylons
+    relationship: supplier
+
+  - name: Kongsberg Gruppen
+    country: Norway
+    supplies: F-35 composite components, JSM integration
+    relationship: supplier
+
+  - name: MBDA
+    country: Europe (multinational)
+    supplies: Missile integration (JSM, SPEAR for F-35)
+    relationship: integration_partner
+
+sources:
+  - { name: "Lockheed Martin Annual Report 2023", url: "https://www.lockheedmartin.com/en-us/investors.html" }
+  - { name: "F-35 Joint Program Office", url: "https://www.f35.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

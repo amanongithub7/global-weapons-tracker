@@ -1,0 +1,76 @@
+name: United States
+code: US
+region: North America
+
+producers:
+  - name: Lockheed Martin
+    type: prime_contractor
+    products:
+      - F-35 Lightning II
+      - F-16 Fighting Falcon
+      - THAAD missile systems
+      - Hellfire missiles
+    revenue: 67.6B
+    revenue_year: 2023
+    employees: 114000
+
+  - name: Raytheon (RTX)
+    type: prime_contractor
+    products:
+      - Patriot missile systems
+      - Tomahawk cruise missiles
+      - Stinger missiles
+      - Javelin anti-tank missiles
+    revenue: 64.2B
+    revenue_year: 2023
+    employees: 182000
+
+  - name: Northrop Grumman
+    type: prime_contractor
+    products:
+      - B-21 Raider bomber
+      - B-2 Spirit bomber
+      - Global Hawk drones
+      - Trident II D5 missiles
+    revenue: 39.3B
+    revenue_year: 2023
+    employees: 97000
+
+  - name: General Dynamics
+    type: prime_contractor
+    products:
+      - M1 Abrams tank
+      - Virginia-class submarines
+      - Arleigh Burke-class destroyers
+      - Gulfstream military aircraft
+    revenue: 42.3B
+    revenue_year: 2023
+    employees: 106000
+
+  - name: Boeing Defense
+    type: prime_contractor
+    products:
+      - F-15EX Eagle II
+      - F/A-18 Super Hornet
+      - CH-47 Chinook helicopters
+      - P-8 Poseidon maritime patrol
+    revenue: 34.9B
+    revenue_year: 2023
+    employees: 51000 (defense segment)
+
+top_export_destinations:
+  - country: Saudi Arabia
+    notes: Major purchaser of F-15s, Patriot systems, missiles
+  - country: Qatar
+    notes: Purchased F-15QAs, Patriot systems
+  - country: Australia
+    notes: F-35 joint program partner, naval systems
+  - country: South Korea
+    notes: F-35s, Patriot systems, military aircraft
+  - country: United Arab Emirates
+    notes: F-35s (pending), THAAD, Patriot systems
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "Stockholm International Peace Research Institute (SIPRI) Top 100", url: "https://www.sipri.org/research/armament-and-disarmament/arms-transfers-and-military-spending/arms-production/military-spending-and-arms-production-sipri-top-100" }
+  - { name: "US Department of Defense Fiscal Year 2024 Budget", url: "https://comptroller.defense.gov/Budget-Materials/" }

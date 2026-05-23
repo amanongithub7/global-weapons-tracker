@@ -1,0 +1,67 @@
+name: Rheinmetall
+country: Germany
+type: defense_contractor
+founded: 1889
+
+key_programs:
+  - name: Leopard 2 A7/A8
+    type: main_battle_tank
+    status: active_production
+    description: 3rd-generation main battle tank, current NATO standard
+
+  - name: KF51 Panther
+    type: main_battle_tank
+    status: prototype
+    description: Next-generation main battle tank with 130mm gun
+
+  - name: Lynx KF41
+    type: infantry_fighting_vehicle
+    status: active_production
+    description: Next-generation tracked IFV
+    export_clients:
+      - Hungary
+
+  - name: Skynex
+    type: air_defense
+    status: active_production
+    description: Modular ground-based air defense system (cannon + missile)
+
+  - name: Marder 1A5
+    type: infantry_fighting_vehicle
+    status: upgrade_program
+    description: Legacy IFV upgrade program
+
+suppliers:
+  - name: MTU Friedrichshafen (Rolls-Royce)
+    country: Germany
+    supplies: MB 873 diesel engines (Leopard 2), drive systems
+    relationship: tier_1
+
+  - name: Krauss-Maffei Wegmann (KNDS)
+    country: Germany
+    supplies: Leopard 2 hull and turret production (joint venture arrangement)
+    relationship: joint_venture_partner
+
+  - name: Diehl Defence
+    country: Germany
+    supplies: DM-series tank ammunition, IRIS-T SLM integration
+    relationship: supplier
+
+  - name: Hensoldt
+    country: Germany
+    supplies: Optronics, thermal sights, radar for Skynex
+    relationship: supplier
+
+  - name: Renk Group
+    country: Germany
+    supplies: Transmissions for Leopard 2, Lynx
+    relationship: supplier
+
+  - name: ACE Ireland (Allied Components)
+    country: Ireland
+    supplies: Electronics components, connectors
+    relationship: supplier
+
+sources:
+  - { name: "Rheinmetall Annual Report 2023", url: "https://www.rheinmetall.com/en/investor-relations" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

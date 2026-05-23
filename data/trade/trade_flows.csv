@@ -1,0 +1,47 @@
+from_country,from_code,to_country,to_code,category,estimated_value_usd,year,source
+United States,US,Saudi Arabia,SA,aircraft,4500000000,2023,SIPRI Arms Transfers Database
+United States,US,Qatar,QA,aircraft+missiles,2500000000,2022,SIPRI Arms Transfers Database
+United States,US,Australia,AU,aircraft+naval,3100000000,2023,SIPRI Arms Transfers Database
+United States,US,South Korea,KR,aircraft+missiles,2200000000,2023,SIPRI Arms Transfers Database
+United States,US,United Arab Emirates,AE,missile_defense,1500000000,2022,SIPRI Arms Transfers Database
+United States,US,Israel,IL,munitions+aircraft,3800000000,2023,US Foreign Military Financing
+United States,US,India,IN,transport+maritime,1800000000,2022,SIPRI Arms Transfers Database
+United States,US,Poland,PL,aircraft+missiles,1200000000,2023,SIPRI Arms Transfers Database
+United States,US,Netherlands,NL,aircraft+missiles,900000000,2022,SIPRI Arms Transfers Database
+United States,US,United Kingdom,GB,aircraft+subsystems,1500000000,2023,SIPRI Arms Transfers Database
+Russia,RU,India,IN,aircraft+air_defense,3500000000,2022,SIPRI Arms Transfers Database
+Russia,RU,China,CN,aircraft+air_defense,1500000000,2021,SIPRI Arms Transfers Database
+Russia,RU,Algeria,DZ,aircraft+submarines,2200000000,2022,SIPRI Arms Transfers Database
+Russia,RU,Vietnam,VN,submarines+aircraft,1800000000,2021,SIPRI Arms Transfers Database
+Russia,RU,Egypt,EG,aircraft,1000000000,2021,SIPRI Arms Transfers Database
+China,CN,Pakistan,PK,aircraft+naval,2800000000,2023,SIPRI Arms Transfers Database
+China,CN,Bangladesh,BD,naval+missiles,1200000000,2022,SIPRI Arms Transfers Database
+China,CN,Myanmar,MM,aircraft+armor,900000000,2021,SIPRI Arms Transfers Database
+China,CN,Thailand,TH,tanks+naval,700000000,2023,SIPRI Arms Transfers Database
+China,CN,Nigeria,NG,drones+armor,300000000,2022,SIPRI Arms Transfers Database
+Germany,DE,Israel,IL,submarines,1500000000,2022,SIPRI Arms Transfers Database
+Germany,DE,South Korea,KR,submarine_tech,800000000,2021,SIPRI Arms Transfers Database
+Germany,DE,Norway,NO,tanks+missiles,600000000,2023,SIPRI Arms Transfers Database
+Germany,DE,Egypt,EG,submarines,900000000,2022,SIPRI Arms Transfers Database
+Germany,DE,Singapore,SG,submarines,1000000000,2021,SIPRI Arms Transfers Database
+France,FR,India,IN,aircraft,2800000000,2022,SIPRI Arms Transfers Database
+France,FR,Egypt,EG,aircraft,2500000000,2021,SIPRI Arms Transfers Database
+France,FR,Qatar,QA,aircraft,1800000000,2022,SIPRI Arms Transfers Database
+France,FR,United Arab Emirates,AE,aircraft+armor,2200000000,2022,SIPRI Arms Transfers Database
+France,FR,Greece,GR,aircraft+naval,1400000000,2023,SIPRI Arms Transfers Database
+United Kingdom,GB,Saudi Arabia,SA,aircraft,2000000000,2022,SIPRI Arms Transfers Database
+United Kingdom,GB,Oman,OM,aircraft+naval,800000000,2021,SIPRI Arms Transfers Database
+United Kingdom,GB,United States,US,subsystems+EW,1200000000,2023,SIPRI Arms Transfers Database
+United Kingdom,GB,India,IN,engines+subsystems,500000000,2022,SIPRI Arms Transfers Database
+Israel,IL,India,IN,missiles+drones,700000000,2023,SIPRI Arms Transfers Database
+Israel,IL,Azerbaijan,AZ,drones+sensors,600000000,2022,SIPRI Arms Transfers Database
+Israel,IL,United States,US,drone_tech+sensors,400000000,2023,SIPRI Arms Transfers Database
+Israel,IL,Morocco,MA,drones,200000000,2022,SIPRI Arms Transfers Database
+South Korea,KR,Philippines,PH,aircraft+naval,500000000,2022,SIPRI Arms Transfers Database
+South Korea,KR,Indonesia,ID,submarines,600000000,2021,SIPRI Arms Transfers Database
+Italy,IT,Qatar,QA,aircraft+naval,1500000000,2022,SIPRI Arms Transfers Database
+Italy,IT,Egypt,EG,aircraft,700000000,2021,SIPRI Arms Transfers Database
+Spain,ES,Australia,AU,naval,1200000000,2022,SIPRI Arms Transfers Database
+Spain,ES,Saudi Arabia,SA,naval,900000000,2021,SIPRI Arms Transfers Database
+Turkey,TR,Pakistan,PK,naval+drones,600000000,2023,SIPRI Arms Transfers Database
+Turkey,TR,Qatar,QA,drones+armor,400000000,2022,SIPRI Arms Transfers Database

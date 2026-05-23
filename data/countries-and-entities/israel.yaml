@@ -1,0 +1,64 @@
+name: Israel
+code: IL
+region: Middle East
+
+producers:
+  - name: Israel Aerospace Industries (IAI)
+    type: state_owned
+    products:
+      - Iron Dome interceptor production
+      - Arrow missile defense system
+      - David's Sling air defense
+      - Heron TP drone
+      - Harop loitering munition
+    revenue: 5.3B
+    revenue_year: 2023
+    employees: 15000
+
+  - name: Elbit Systems
+    type: defense_contractor
+    products:
+      - Hermes 900 drone
+      - Iron Fist active protection system
+      - Electronic warfare suites
+      - Head-up displays and helmets
+      - Precision-guided munitions
+    revenue: 6.1B
+    revenue_year: 2023
+    employees: 19000
+
+  - name: Rafael Advanced Defense Systems
+    type: state_owned
+    products:
+      - Iron Dome
+      - David's Sling
+      - Spike anti-tank missile
+      - Trophy active protection system
+      - SPICE precision bombs
+    revenue: 4.0B
+    revenue_year: 2023
+    employees: 12000
+
+  - name: IMI Systems (acquired by Elbit)
+    type: defense_contractor
+    products:
+      - Small arms and ammunition
+      - Artillery systems
+      - Armored vehicle upgrades
+    notes: Acquired by Elbit Systems in 2018
+
+top_export_destinations:
+  - country: India
+    notes: Barak-8 SAM, Spike missiles, radars, drones, air defense
+  - country: Azerbaijan
+    notes: Drones, sensors, loitering munitions (Harop)
+  - country: United States
+    notes: Iron Dome co-production, defense tech, sensor components
+  - country: Morocco
+    notes: Drones (Hermes), Barak MX air defense
+  - country: Vietnam
+    notes: Radar systems, light arms, electronic warfare
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "Israel Ministry of Defense Export Reports", url: "https://www.mod.gov.il" }

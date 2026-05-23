@@ -1,0 +1,76 @@
+name: France
+code: FR
+region: Europe
+
+producers:
+  - name: Dassault Aviation
+    type: prime_contractor
+    products:
+      - Rafale multirole fighter
+      - Mirage 2000 (legacy)
+      - Falcon business jets (dual-use)
+      - nEUROn stealth drone demonstrator
+    revenue: 5.0B
+    revenue_year: 2023
+    employees: 14000
+
+  - name: Naval Group
+    type: naval_defense
+    products:
+      - Scorpène-class submarines
+      - Suffren-class (Barracuda) nuclear submarines
+      - FREMM multi-mission frigates
+      - Gowind-class corvettes
+    revenue: 4.2B
+    revenue_year: 2023
+    employees: 16000
+
+  - name: MBDA (France)
+    type: missile_systems
+    products:
+      - Storm Shadow / SCALP cruise missile
+      - Aster air defense missile
+      - MICA air-to-air missile
+      - Exocet anti-ship missile
+      - Mistral MANPADS
+    revenue: 4.5B
+    revenue_year: 2023
+    employees: 14000
+
+  - name: Thales
+    type: defense_electronics
+    products:
+      - Ground Master 400 radar
+      - RBE2 AESA radar (Rafale)
+      - Sonar systems (submarines)
+      - Command and control systems
+    revenue: 10.3B (defense segment)
+    revenue_year: 2023
+    employees: 34000 (defense)
+
+  - name: Nexter (KNDS France)
+    type: land_systems
+    products:
+      - Leclerc main battle tank
+      - CAESAR self-propelled howitzer
+      - VBCI infantry fighting vehicle
+      - Vulcano guided artillery projectile
+    revenue: 1.8B
+    revenue_year: 2022
+    employees: 6000
+
+top_export_destinations:
+  - country: India
+    notes: Rafale fighters, Scorpene submarines, Meteor missiles
+  - country: Egypt
+    notes: Rafale fighters, FREMM frigates, Mistral amphibious ships
+  - country: Qatar
+    notes: Rafale fighters, its  Vinci  engines, MBDA missiles
+  - country: United Arab Emirates
+    notes: Rafale fighters (80 ordered 2021), Caracal helicopters
+  - country: Greece
+    notes: Rafale fighters, FDI frigates, armored vehicles
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "Dassault Aviation Annual Report", url: "https://www.dassault-aviation.com/en/group/annual-reports/" }

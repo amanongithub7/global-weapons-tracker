@@ -1,0 +1,74 @@
+name: India
+code: IN
+region: Asia-Pacific
+
+producers:
+  - name: Hindustan Aeronautics Limited (HAL)
+    type: state_owned
+    products:
+      - HAL Tejas light combat aircraft
+      - HAL Dhruv advanced light helicopter
+      - HAL Prachand light combat helicopter
+      - Su-30MKI licensed production
+      - Jaguar upgrade program
+    revenue: 3.2B
+    revenue_year: 2023
+    employees: 34000
+
+  - name: Bharat Electronics Limited (BEL)
+    type: state_owned
+    products:
+      - Akash surface-to-air missile system
+      - Electronic warfare systems
+      - Radars (Arudhra, Ashwini, etc.)
+      - C4I systems
+    revenue: 2.1B
+    revenue_year: 2023
+    employees: 15000
+
+  - name: Mazagon Dock Shipbuilders Limited (MDL)
+    type: state_owned
+    products:
+      - Kalvari-class submarines (Scorpene)
+      - Visakhapatnam-class destroyers
+      - Shivalik-class frigates
+      - Offshore patrol vessels
+    revenue: 1.5B
+    revenue_year: 2023
+    employees: 18000
+
+  - name: DRDO (Defence Research and Development Organisation)
+    type: government_agency
+    products:
+      - Agni-V intercontinental ballistic missile
+      - Nag anti-tank missile
+      - Akash air defense system
+      - Arjun main battle tank
+      - Tejas aircraft design
+    employees: 30000
+    notes: India's primary defense R&D agency
+
+  - name: Tata Advanced Systems
+    type: private
+    products:
+      - C-295 wing assemblies
+      - S-92 helicopter cabins
+      - Electronic subsystems
+    revenue: 0.8B
+    revenue_year: 2023
+    employees: 7000
+
+top_import_sources:
+  - country: Russia
+    notes: S-400 systems, Su-30MKI (ongoing), T-90 tanks, AK-203 rifles
+  - country: United States
+    notes: C-17 transports, P-8I Poseidon, M777 howitzers, Apache helicopters
+  - country: France
+    notes: Rafale fighters, Scorpene submarine tech, SAM systems
+  - country: Israel
+    notes: Spike anti-tank missiles, Barak SAM, drones, radars
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "HAL Annual Report 2022-23", url: "https://www.hal-india.co.in/Annual_Reports" }
+  - { name: "SIPRI Top 100", url: "https://www.sipri.org/research/armament-and-disarmament/arms-transfers-and-military-spending/arms-production/military-spending-and-arms-production-sipri-top-100" }

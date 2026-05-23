@@ -1,0 +1,69 @@
+name: Rostec
+country: Russia
+type: state_holding
+founded: 2007
+
+key_programs:
+  - name: Su-57 Felon
+    type: fighter_aircraft
+    status: low_rate_production
+    description: 5th-generation stealth multirole fighter
+
+  - name: S-400 Triumf
+    type: air_defense
+    status: active_production
+    description: Long-range surface-to-air missile system
+    export_clients: China, India, Turkey (delayed)
+
+  - name: Kalibr (3M14)
+    type: cruise_missile
+    status: active_production
+    description: Ship/submarine-launched land-attack cruise missile
+    export_clients: India
+
+  - name: T-14 Armata
+    type: main_battle_tank
+    status: limited_production
+    description: 4th-generation main battle tank with unmanned turret
+
+subsidiaries:
+  - name: United Aircraft Corporation (UAC)
+    products: Su-35, Su-57, MiG-35, Il-76
+  - name: Russian Helicopters
+    products: Mi-28, Ka-52, Mi-8/17 series
+  - name: United Engine Corporation (UEC)
+    products: AL-41, RD-33, Saturn engines
+  - name: Shvabe Holding
+    products: Optics, targeting systems
+  - name: KRET
+    products: Avionics, EW systems
+
+suppliers:
+  - name: Tactical Missiles Corporation (KTRV)
+    country: Russia
+    supplies: Air-to-air, air-to-surface missiles, cruise missiles
+    relationship: tier_1_subsidiary
+
+  - name: Concern Radio-Electronic Technologies (KRET)
+    country: Russia
+    supplies: Avionics, radar systems, electronic warfare
+    relationship: subsidiary
+
+  - name: UEC (United Engine Corporation)
+    country: Russia
+    supplies: Aircraft engines, gas turbines
+    relationship: subsidiary
+
+  - name: Uralvagonzavod
+    country: Russia
+    supplies: Tank production, armored vehicles
+    relationship: partner
+
+  - name: NPO High-Precision Complexes
+    country: Russia
+    supplies: Precision-guided weapons, anti-tank systems
+    relationship: subsidiary
+
+sources:
+  - { name: "Rostec Annual Report 2022", url: "https://rostec.ru/en/about/" }
+  - { name: "SIPRI Top 100", url: "https://www.sipri.org/research/armament-and-disarmament/arms-transfers-and-military-spending/arms-production/military-spending-and-arms-production-sipri-top-100" }
