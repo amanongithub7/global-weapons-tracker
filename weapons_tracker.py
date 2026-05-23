@@ -155,7 +155,7 @@ def cmd_trade(args):
 def cmd_list(args):
     if args.list_type == "entities":
         files = sorted(COUNTRIES_DIR.glob("*.yaml"))
-        print(f"Available countries ({len(files)}):")
+        print(f"Available countries / regional entities ({len(files)}):")
         for f in files:
             data = load_yaml(f)
             code = data.get("code", "")
@@ -295,7 +295,9 @@ def main():
     )
     sub = parser.add_subparsers(dest="command")
 
-    p_entity = sub.add_parser("entity", help="Look up a country or regional entity's weapons producers")
+    p_entity = sub.add_parser(
+        "entity", help="Look up a country or regional entity's weapons producers"
+    )
     p_entity.add_argument(
         "query",
         help="Entity name or code (e.g., 'usa', 'russia', 'india')",
