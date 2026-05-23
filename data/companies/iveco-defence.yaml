@@ -1,0 +1,57 @@
+name: Iveco Defence Vehicles
+country: Italy
+type: land_systems
+founded: 1975
+
+key_programs:
+  - name: Centauro II
+    type: armored_vehicle
+    status: active_production
+    description: 8x8 wheeled tank destroyer with 120mm cannon
+    export_clients:
+      - Spain
+
+  - name: Freccia
+    type: infantry_fighting_vehicle
+    status: active_production
+    description: 8x8 wheeled infantry fighting vehicle family
+
+  - name: VTLM Lince
+    type: light_vehicle
+    status: active_production
+    description: Light multirole tactical vehicle (similar to HMMWV)
+
+  - name: Trakker military truck
+    type: logistics
+    status: active_production
+    description: Heavy-duty military logistics and cargo truck
+
+  - name: LMV-BR (Guarani chassis)
+    type: armored_vehicle
+    status: active_production
+    description: 6x6 armored personnel carrier (co-developed with Brazil)
+
+suppliers:
+  - name: Fiat Powertrain (Iveco Group)
+    country: Italy
+    supplies: Cursor series diesel engines
+    relationship: internal
+
+  - name: Leonardo
+    country: Italy
+    supplies: Remote weapon stations, fire control systems
+    relationship: supplier
+
+  - name: ZF Friedrichshafen
+    country: Germany
+    supplies: Transmissions, driveline components
+    relationship: supplier
+
+  - name: OTO Melara (Leonardo)
+    country: Italy
+    supplies: 120mm low-recoil cannon (Centauro II)
+    relationship: integration_partner
+
+sources:
+  - { name: "Iveco Defence Vehicles official site", url: "https://www.iveco.com/defence" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

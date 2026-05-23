@@ -1,0 +1,32 @@
+name: Almaz-Antey
+country: Russia
+type: defense_contractor
+
+key_programs:
+  - name: S-400 Triumf air defense system
+    type: air_defense
+    status: active_production
+    description: Long-range surface-to-air missile system (range 400km)
+    export_clients:
+      - China
+      - India
+      - Turkey
+
+  - name: S-500 Prometey air defense system
+    type: air_defense
+    status: active_production
+    description: Next-generation long-range air and missile defense system
+
+  - name: Buk-M3 air defense system
+    type: air_defense
+    status: active_production
+    description: Medium-range self-propelled surface-to-air missile system
+
+  - name: Pantsir-S1 air defense
+    type: air_defense
+    status: active_production
+    description: Short-to-medium range wheeled air defense system (cannon + missile)
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "SIPRI Top 100", url: "https://www.sipri.org/research/armament-and-disarmament/arms-transfers-and-military-spending/arms-production/military-spending-and-arms-production-sipri-top-100" }

@@ -1,0 +1,37 @@
+name: Roketsan
+country: Turkey
+type: missile_systems
+
+key_programs:
+  - name: Bora tactical ballistic missile
+    type: ballistic_missile
+    status: active_production
+    description: Short-range tactical ballistic missile (range 280+ km)
+
+  - name: TRG-300 Tiger rocket system
+    type: rocket_artillery
+    status: active_production
+    description: 300mm guided multiple launch rocket system
+
+  - name: Cirit laser-guided missile
+    type: missile
+    status: active_production
+    description: 70mm laser-guided air-to-ground missile for UAVs and helicopters
+
+  - name: MAM smart micro munitions
+    type: munitions
+    status: active_production
+    description: MAM-C (laser guided) and MAM-L (larger) smart munitions for UAVs
+    export_clients:
+      - Ukraine
+      - Qatar
+      - Azerbaijan
+
+  - name: Karaok anti-tank missile
+    type: missile
+    status: active_production
+    description: Man-portable fire-and-forget anti-tank guided missile
+
+sources:
+  - { name: "Roketsan official site", url: "https://www.roketsan.com.tr" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

@@ -1,0 +1,23 @@
+name: Secretaría de Marina (SEMAR)
+country: Mexico
+type: government_agency
+
+key_programs:
+  - name: ARM Reformador-class patrol vessels
+    type: naval_vessel
+    status: active_production
+    description: Long-range ocean patrol vessels for Mexican Navy
+
+  - name: Oaxaca-class patrol vessels
+    type: naval_vessel
+    status: active_production
+    description: Multi-role offshore patrol vessels
+
+  - name: Naval shipbuilding and repair
+    type: naval_services
+    status: operational
+    description: Indigenous naval construction and drydock services
+
+sources:
+  - { name: "SEMAR official site", url: "https://www.gob.mx/semar" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

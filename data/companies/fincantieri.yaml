@@ -1,0 +1,59 @@
+name: Fincantieri
+country: Italy
+type: naval_defense
+founded: 1959
+
+key_programs:
+  - name: FREMM frigates
+    type: naval_vessel
+    status: active_production
+    description: Franco-Italian multi-mission frigate program
+    export_clients:
+      - Egypt
+      - Morocco
+      - Indonesia
+
+  - name: PPA (Pattugliatori Polivalenti d'Altura)
+    type: naval_vessel
+    status: active_production
+    description: Multi-purpose offshore patrol vessel
+
+  - name: Todaro-class submarines
+    type: submarine
+    status: active_production
+    description: Type 212 derivative submarine for Italian Navy
+
+  - name: LHD Trieste
+    type: amphibious_assault
+    status: commissioned
+    description: Landing helicopter dock for Italian Navy
+
+suppliers:
+  - name: Leonardo
+    country: Italy
+    supplies: Combat management systems, radar, sonar
+    relationship: tier_1
+
+  - name: MBDA Italia
+    country: Italy
+    supplies: Missile systems (Aster, TESEO)
+    relationship: integration_partner
+
+  - name: Avio Aero (GE Aerospace)
+    country: Italy
+    supplies: LM2500 gas turbines
+    relationship: supplier
+
+  - name: Wärtsilä
+    country: Finland
+    supplies: Diesel engines, propulsion systems
+    relationship: supplier
+
+  - name: RINA
+    country: Italy
+    supplies: Classification and certification services
+    relationship: partner
+
+sources:
+  - { name: "Fincantieri Annual Report 2023", url: "https://www.fincantieri.com/en/investors/" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

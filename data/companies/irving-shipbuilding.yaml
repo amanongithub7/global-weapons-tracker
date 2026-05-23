@@ -1,0 +1,40 @@
+name: Irving Shipbuilding
+country: Canada
+type: naval_defense
+founded: 1994
+
+key_programs:
+  - name: Harry DeWolf-class Arctic patrol ships
+    type: naval_vessel
+    status: active_production
+    description: Six Arctic and offshore patrol vessels for Royal Canadian Navy
+
+  - name: Canadian Surface Combatant program
+    type: naval_vessel
+    status: in_development
+    description: Future multi-mission warship program (Type 26 derivative, 15 ships planned)
+
+  - name: Halifax-class frigate modernization
+    type: naval_services
+    status: completed
+    description: Mid-life refit and modernization of 12 Halifax-class frigates
+
+suppliers:
+  - name: Lockheed Martin Canada
+    country: Canada (US-owned)
+    supplies: Combat management system (CMS 330 for CSC)
+    relationship: tier_1
+
+  - name: BAE Systems (UK)
+    country: United Kingdom
+    supplies: Type 26 frigate design for CSC program
+    relationship: technology_partner
+
+  - name: GE Power Conversion
+    country: United Kingdom
+    supplies: Integrated electric propulsion systems
+    relationship: supplier
+
+sources:
+  - { name: "Irving Shipbuilding official site", url: "https://www.irvingshipbuilding.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

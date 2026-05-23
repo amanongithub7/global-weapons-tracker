@@ -1,0 +1,23 @@
+name: Escribano Mechanical & Engineering
+country: Spain
+type: defense_systems
+
+key_programs:
+  - name: Guardian remote weapon stations
+    type: weapon_station
+    status: active_production
+    description: Remote-controlled weapon stations for land and naval platforms (7.62mm to 40mm)
+
+  - name: Sentinel naval weapon systems
+    type: naval_systems
+    status: active_production
+    description: Lightweight remotely operated naval gun systems
+
+  - name: Drone defense systems
+    type: counter_uas
+    status: active_production
+    description: Counter-unmanned aircraft systems using electronic warfare and kinetic effectors
+
+sources:
+  - { name: "Escribano official site", url: "https://www.escribano.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

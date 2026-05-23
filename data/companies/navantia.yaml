@@ -1,0 +1,55 @@
+name: Navantia
+country: Spain
+type: naval_defense
+founded: 2005
+
+key_programs:
+  - name: F-100 class frigates
+    type: naval_vessel
+    status: operational
+    description: Aegis-equipped air defense frigates (Álvaro de Bazán class)
+
+  - name: S-80 Plus submarines
+    type: submarine
+    status: active_production
+    description: Next-generation conventional attack submarine with AIP
+
+  - name: Juan Carlos I LHD
+    type: amphibious_assault
+    status: operational
+    description: Strategic projection ship (light aircraft carrier / amphibious assault)
+
+  - name: AOR (Bacalaureate-class replenishment ships)
+    type: naval_vessel
+    status: active_production
+    description: Fleet replenishment oiler for Royal Australian Navy
+
+suppliers:
+  - name: Indra
+    country: Spain
+    supplies: Combat systems, radar, electronic warfare
+    relationship: tier_1
+
+  - name: Lockheed Martin
+    country: United States
+    supplies: Aegis Combat System (F-100)
+    relationship: integration_partner
+
+  - name: MTU Friedrichshafen (Rolls-Royce)
+    country: Germany
+    supplies: Diesel engines, propulsion
+    relationship: supplier
+
+  - name: General Dynamics
+    country: United States
+    supplies: Propulsion systems, design consultancy
+    relationship: supplier
+
+  - name: SAES (Sociedad Anónima de Electrónica Submarina)
+    country: Spain
+    supplies: Sonar systems, underwater sensors
+    relationship: supplier
+
+sources:
+  - { name: "Navantia official site", url: "https://www.navantia.es/en/" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

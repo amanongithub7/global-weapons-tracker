@@ -1,0 +1,28 @@
+name: Northrop Grumman
+country: United States
+type: prime_contractor
+
+key_programs:
+  - name: B-21 Raider bomber
+    type: bomber
+    status: active_production
+    description: 6th-generation long-range stealth strategic bomber
+
+  - name: B-2 Spirit bomber
+    type: bomber
+    status: operational
+    description: Stealth strategic bomber with low-observable flying wing design
+
+  - name: Global Hawk / Triton drones
+    type: unmanned_aerial_vehicle
+    status: active_production
+    description: High-altitude long-endurance (HALE) unmanned surveillance aircraft
+
+  - name: Trident II D5 missiles
+    type: ballistic_missile
+    status: active_production
+    description: Submarine-launched intercontinental ballistic missile (SLBM)
+
+sources:
+  - { name: "Northrop Grumman Annual Report", url: "https://www.northropgrumman.com/investors" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

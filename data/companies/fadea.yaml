@@ -1,0 +1,24 @@
+name: FAdeA (Fábrica Argentina de Aviones)
+country: Argentina
+type: state_owned
+founded: 1927
+
+key_programs:
+  - name: IA-63 Pampa
+    type: trainer_aircraft
+    status: active_production
+    description: Advanced jet trainer and light attack aircraft
+
+  - name: IA-100
+    type: trainer_aircraft
+    status: active_production
+    description: Primary training aircraft
+
+  - name: Aircraft MRO
+    type: aerospace_services
+    status: operational
+    description: Maintenance, repair and overhaul services for military aircraft
+
+sources:
+  - { name: "FAdeA official site", url: "https://www.fadea.com.ar" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

@@ -1,0 +1,27 @@
+name: United Shipbuilding Corporation (USC)
+country: Russia
+type: state_corporation
+
+key_programs:
+  - name: Borei-class nuclear submarines
+    type: submarine
+    status: active_production
+    description: Project 955/955A Borei-class nuclear-powered ballistic missile submarines
+
+  - name: Yasen-class nuclear submarines
+    type: submarine
+    status: active_production
+    description: Project 885/885M Yasen-class nuclear-powered attack submarines
+
+  - name: Admiral Gorshkov-class frigates
+    type: naval_vessel
+    status: active_production
+    description: Project 22350 guided-missile frigates
+
+  - name: Buyan-M corvettes
+    type: naval_vessel
+    status: active_production
+    description: Project 21631 small missile ships (Kalibr-capable)
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

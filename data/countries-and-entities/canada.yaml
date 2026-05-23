@@ -1,0 +1,60 @@
+name: Canada
+code: CA
+region: North America
+
+producers:
+  - name: L3Harris Technologies (Canada)
+    type: aerospace
+    products:
+      - Maritime patrol aircraft systems
+      - C-130 avionics upgrades
+      - Mine detection systems
+    employees: 3000
+
+  - name: General Dynamics Land Systems - Canada
+    type: land_systems
+    products:
+      - Light Armoured Vehicle (LAV) 6.0
+      - Coyote reconnaissance vehicle
+      - TAPV (Tactical Armoured Patrol Vehicle)
+    employees: 2000
+
+  - name: CAE
+    type: defense_services
+    products:
+      - Flight simulation and training
+      - C4ISR systems
+      - Medical simulation
+    revenue: 4.2B
+    revenue_year: 2023
+    employees: 13000
+
+  - name: Irving Shipbuilding
+    type: naval_defense
+    products:
+      - Harry DeWolf-class Arctic patrol ships
+      - Canadian Surface Combatant program
+    employees: 2500
+
+  - name: Bombardier Defence
+    type: aerospace
+    products:
+      - Global 6000/6500 for SIGINT/AEW platforms
+      - Special mission aircraft
+    employees: 1200
+
+top_export_destinations:
+  - country: United States
+    notes: LAV armored vehicles, CAE simulators, Bombardier special mission platforms
+  - country: Saudi Arabia
+    notes: LAV vehicles, CAE training systems (past)
+  - country: Australia
+    notes: LAV vehicles, simulation systems
+  - country: United Kingdom
+    notes: Maritime patrol systems, training
+  - country: Denmark
+    notes: Arctic patrol technology
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "CAE Annual Report", url: "https://www.cae.com/investors" }

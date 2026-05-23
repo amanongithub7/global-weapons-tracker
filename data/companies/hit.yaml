@@ -1,0 +1,28 @@
+name: Heavy Industries Taxila (HIT)
+country: Pakistan
+type: state_owned
+
+key_programs:
+  - name: Al-Khalid main battle tank
+    type: main_battle_tank
+    status: active_production
+    description: 3rd-generation main battle tank (MBT 2000, co-developed with China/NORINCO)
+
+  - name: Al-Zarrar main battle tank
+    type: main_battle_tank
+    status: operational
+    description: Upgraded Type 59 main battle tank with modern systems
+
+  - name: Infantry fighting vehicles
+    type: armored_vehicle
+    status: active_production
+    description: Tracked and wheeled infantry fighting vehicles
+
+  - name: Armored personnel carriers
+    type: armored_vehicle
+    status: active_production
+    description: Mine-protected and wheeled APCs
+
+sources:
+  - { name: "HIT official site", url: "https://www.hit.gov.pk" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

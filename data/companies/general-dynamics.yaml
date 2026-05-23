@@ -1,0 +1,28 @@
+name: General Dynamics
+country: United States
+type: prime_contractor
+
+key_programs:
+  - name: M1 Abrams tank
+    type: main_battle_tank
+    status: active_production
+    description: M1A2 SEPv3 and M1A2 SEPv4 main battle tank
+
+  - name: Virginia-class submarines
+    type: submarine
+    status: active_production
+    description: Nuclear-powered fast attack submarine (Block V with VPM payload module)
+
+  - name: Arleigh Burke-class destroyers
+    type: naval_vessel
+    status: active_production
+    description: Flight III Aegis guided-missile destroyers (DDG-51 class)
+
+  - name: Gulfstream military aircraft
+    type: dual_use
+    status: active_production
+    description: Gulfstream business jets configured for special mission roles
+
+sources:
+  - { name: "General Dynamics Annual Report", url: "https://www.gd.com/investors" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

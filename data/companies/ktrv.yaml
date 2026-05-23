@@ -1,0 +1,27 @@
+name: Tactical Missiles Corporation (KTRV)
+country: Russia
+type: defense_contractor
+
+key_programs:
+  - name: Kh-101 cruise missile
+    type: cruise_missile
+    status: active_production
+    description: Air-launched strategic cruise missile (range 3,000+ km)
+
+  - name: Kh-59 air-to-surface missile
+    type: missile
+    status: active_production
+    description: Medium-range air-to-surface missile (Kh-59MK2 variant)
+
+  - name: R-77 air-to-air missile
+    type: missile
+    status: active_production
+    description: Beyond-visual-range air-to-air missile (R-77 / AA-12 Adder)
+
+  - name: 3M14 Kalibr cruise missile
+    type: cruise_missile
+    status: active_production
+    description: Multi-platform land attack cruise missile (ship, submarine, air-launched)
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

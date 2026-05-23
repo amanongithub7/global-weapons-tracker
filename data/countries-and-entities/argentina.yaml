@@ -1,0 +1,51 @@
+name: Argentina
+code: AR
+region: South America
+
+producers:
+  - name: Fabricaciones Militares (FM)
+    type: state_owned
+    products:
+      - Small arms and ammunition
+      - Artillery systems
+      - Explosives and propellants
+    employees: 1500
+
+  - name: INVAP
+    type: state_owned
+    products:
+      - Radar systems (primary surveillance, weather)
+      - Satellite technology
+      - Nuclear reactor design (dual-use)
+    revenue: 0.3B
+    revenue_year: 2023
+    employees: 1600
+
+  - name: FAdeA (Fábrica Argentina de Aviones)
+    type: state_owned
+    products:
+      - IA-63 Pampa trainer/light attack aircraft
+      - IA-100 training aircraft
+      - Aircraft MRO services
+    employees: 1200
+
+  - name: Astillero Río Santiago
+    type: naval_defense
+    products:
+      - Patrol vessels
+      - Naval repair and maintenance
+    employees: 3000
+
+top_import_sources:
+  - country: United States
+    notes: F-16 Block 70/72 fighters (selected), P-3 Orion maritime patrol
+  - country: France
+    notes: Super Etendard modernization (legacy)
+  - country: Brazil
+    notes: Defense cooperation, training aircraft
+  - country: China
+    notes: Armored vehicles, light fighter cooperation
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "INVAP official site", url: "https://www.invap.com.ar" }

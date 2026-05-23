@@ -1,0 +1,56 @@
+name: Singapore
+code: SG
+region: Asia-Pacific
+
+producers:
+  - name: ST Engineering
+    type: state_owned
+    products:
+      - Terrex infantry fighting vehicle
+      - Hunter armored fighting vehicle
+      - SAR-21 assault rifle
+      - Naval shipbuilding and repair
+      - C4ISR systems
+    revenue: 6.7B
+    revenue_year: 2023
+    employees: 23000
+
+  - name: ST Kinetics (ST Engineering land systems)
+    type: land_systems
+    products:
+      - Bionix infantry fighting vehicle
+      - Primus self-propelled howitzer
+      - Bronco all-terrain tracked carrier
+    employees: 5000
+
+  - name: ST Marine (ST Engineering naval)
+    type: naval_defense
+    products:
+      - Independence-class littoral mission vessels
+      - Formidable-class frigates
+      - Submarine support and modernization
+    employees: 4000
+
+  - name: ST Aerospace (ST Engineering aerospace)
+    type: aerospace_services
+    products:
+      - Aircraft MRO services
+      - UAV systems (Skyblade, Fantail)
+      - Avionics modernization
+    employees: 8000
+
+top_export_destinations:
+  - country: United States
+    notes: Terrex vehicles, aerospace MRO services
+  - country: Thailand
+    notes: Bronco all-terrain vehicles, patrol boats
+  - country: Indonesia
+    notes: Naval vessels, C4ISR systems
+  - country: Philippines
+    notes: Patrol vessels, refurbished aircraft
+  - country: Brazil
+    notes: Terrex vehicles (licensed)
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "ST Engineering Annual Report", url: "https://www.stengg.com/investors" }

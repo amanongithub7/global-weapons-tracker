@@ -1,0 +1,27 @@
+name: CASIC (China Aerospace Science and Industry Corporation)
+country: China
+type: missile_systems
+
+key_programs:
+  - name: DF-21D anti-ship ballistic missile
+    type: ballistic_missile
+    status: operational
+    description: Anti-ship ballistic missile (carrier killer), range 1,500+ km
+
+  - name: DF-17 hypersonic missile
+    type: hypersonic_missile
+    status: operational
+    description: Hypersonic glide vehicle (HGV) with DF-17 booster
+
+  - name: HQ-9 air defense system
+    type: air_defense
+    status: active_production
+    description: Long-range surface-to-air missile system (Chinese equivalent of S-300/S-400)
+
+  - name: YJ-18 anti-ship missile
+    type: missile
+    status: active_production
+    description: Subsonic-cruise/supersonic-terminal anti-ship cruise missile
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

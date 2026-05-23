@@ -1,0 +1,23 @@
+name: GAL (Global Aerospace Logistics)
+country: United Arab Emirates
+type: aerospace_services
+
+key_programs:
+  - name: Aircraft MRO services
+    type: aerospace_services
+    status: operational
+    description: Full spectrum maintenance, repair and overhaul for UAE and allied military aircraft
+
+  - name: Pilot training
+    type: training
+    status: operational
+    description: Military pilot and aircrew training programs
+
+  - name: Unmanned system operations
+    type: aerospace_services
+    status: operational
+    description: UAV operations, support, and mission planning services
+
+sources:
+  - { name: "GAL official site", url: "https://www.gal.ae" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

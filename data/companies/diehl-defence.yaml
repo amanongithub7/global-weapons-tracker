@@ -1,0 +1,31 @@
+name: Diehl Defence
+country: Germany
+type: defense_contractor
+
+key_programs:
+  - name: IRIS-T air-to-air missile
+    type: missile
+    status: active_production
+    description: Short-range infrared-guided air-to-air missile (IRIS-T AAM)
+
+  - name: IRIS-T SLM air defense system
+    type: air_defense
+    status: active_production
+    description: Ground-based air defense system using IRIS-T missiles (SLM/SLS variants)
+    export_clients:
+      - Ukraine
+      - Egypt
+
+  - name: IDAS missile system
+    type: missile
+    status: prototype
+    description: Submarine-launched fiber-optic guided missile for submarine self-defense
+
+  - name: DM-series artillery ammunition
+    type: munitions
+    status: active_production
+    description: Standard NATO 155mm artillery ammunition family
+
+sources:
+  - { name: "Diehl Defence official site", url: "https://www.diehl.com/defence" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

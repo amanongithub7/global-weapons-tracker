@@ -1,0 +1,37 @@
+name: Turkish Aerospace Industries (TAI)
+country: Turkey
+type: state_majority
+
+key_programs:
+  - name: TAI TF-X Kaan
+    type: fighter_aircraft
+    status: prototype
+    description: 5th-generation stealth fighter aircraft (first flight 2024)
+
+  - name: TAI Anka drone
+    type: unmanned_aerial_vehicle
+    status: active_production
+    description: MALE UAV family (Anka-S, Anka-Aksungur)
+
+  - name: T-129 ATAK attack helicopter
+    type: helicopter
+    status: active_production
+    description: Turkish-built attack helicopter (derived from Agusta A129)
+    export_clients:
+      - Pakistan
+      - Philippines
+      - Nigeria
+
+  - name: TAI Hürjet
+    type: trainer_aircraft
+    status: prototype
+    description: Advanced jet trainer and light attack aircraft
+
+  - name: TAI Gökbey helicopter
+    type: helicopter
+    status: active_production
+    description: Indigenous multi-purpose utility helicopter
+
+sources:
+  - { name: "TAI official site", url: "https://www.tai.com.tr" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

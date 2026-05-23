@@ -1,0 +1,27 @@
+name: ST Kinetics (ST Engineering land systems)
+country: Singapore
+type: land_systems
+
+key_programs:
+  - name: Bionix infantry fighting vehicle
+    type: infantry_fighting_vehicle
+    status: operational
+    description: Tracked infantry fighting vehicle for Singapore Army
+
+  - name: Primus self-propelled howitzer
+    type: artillery
+    status: operational
+    description: 155mm tracked self-propelled howitzer
+
+  - name: Bronco all-terrain tracked carrier
+    type: logistics
+    status: active_production
+    description: All-terrain tracked logistics and support vehicle
+    export_clients:
+      - Thailand
+      - Indonesia
+      - Philippines
+
+sources:
+  - { name: "ST Engineering official site", url: "https://www.stengg.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

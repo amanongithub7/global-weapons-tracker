@@ -1,0 +1,37 @@
+name: Israel Aerospace Industries (IAI)
+country: Israel
+type: state_owned
+
+key_programs:
+  - name: Iron Dome interceptor production
+    type: missile
+    status: active_production
+    description: Co-producer of Iron Dome interceptor missiles (with Rafael)
+
+  - name: Arrow missile defense system
+    type: missile_defense
+    status: active_production
+    description: Long-range exo-atmospheric ballistic missile defense (Arrow 2, Arrow 3)
+
+  - name: Heron TP drone
+    type: unmanned_aerial_vehicle
+    status: active_production
+    description: Medium-altitude long-endurance (MALE) UAV
+    export_clients:
+      - India
+      - Germany
+      - France
+      - Australia
+
+  - name: Harop loitering munition
+    type: loitering_munition
+    status: active_production
+    description: Anti-radiation loitering munition (suicide drone)
+    export_clients:
+      - India
+      - Azerbaijan
+      - Morocco
+
+sources:
+  - { name: "IAI official site", url: "https://www.iai.co.il" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

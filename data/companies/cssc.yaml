@@ -1,0 +1,32 @@
+name: China State Shipbuilding Corporation (CSSC)
+country: China
+type: naval_defense
+
+key_programs:
+  - name: Type 052D destroyer
+    type: naval_vessel
+    status: active_production
+    description: Luyang III-class guided missile destroyer with AESA radar and 64-cell VLS
+
+  - name: Type 055 destroyer
+    type: naval_vessel
+    status: active_production
+    description: Nanchang-class heavy guided missile destroyer (12,000+ ton, 112-cell VLS)
+
+  - name: Type 075 LHD
+    type: amphibious_assault
+    status: active_production
+    description: Yushen-class landing helicopter dock (40,000 ton)
+
+  - name: Type 054A frigate
+    type: naval_vessel
+    status: active_production
+    description: Jiangkai II-class multirole frigate (exported to Pakistan as Type 054AP)
+
+  - name: Type 039A submarine
+    type: submarine
+    status: active_production
+    description: Yuan-class conventional attack submarine with AIP
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

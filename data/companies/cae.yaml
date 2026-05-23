@@ -1,0 +1,55 @@
+name: CAE
+country: Canada
+type: defense_services
+founded: 1947
+
+key_programs:
+  - name: Aircrew Training Programs
+    type: training
+    status: active
+    description: Managed flight training services for military air forces worldwide
+
+  - name: C4ISR Systems
+    type: command_and_control
+    status: operational
+    description: Integrated command, control, communications, computers, intelligence, surveillance and reconnaissance systems
+
+  - name: Full Flight Simulators
+    type: simulation
+    status: active_production
+    description: High-fidelity combat aircraft and helicopter simulators
+
+  - name: Mission Rehearsal Systems
+    type: training
+    status: operational
+    description: Synthetic training environments for mission preparation
+
+  - name: Medical Simulation
+    type: dual_use
+    status: active_production
+    description: Simulation-based training for military medical personnel
+
+suppliers:
+  - name: Bombardier Defence
+    country: Canada
+    supplies: Global 6000/6500 platforms for CAE mission systems integration
+    relationship: integration_partner
+
+  - name: L3Harris
+    country: United States
+    supplies: Communication systems, sensors
+    relationship: supplier
+
+  - name: RTX (Collins Aerospace)
+    country: United States
+    supplies: Avionics, navigation systems
+    relationship: supplier
+
+  - name: General Dynamics Mission Systems
+    country: Canada (US-owned)
+    supplies: Secure communications, C4ISR sub-systems
+    relationship: supplier
+
+sources:
+  - { name: "CAE Annual Report 2023", url: "https://www.cae.com/investors" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

@@ -1,0 +1,38 @@
+name: Elbit Systems
+country: Israel
+type: defense_contractor
+
+key_programs:
+  - name: Hermes 900 drone
+    type: unmanned_aerial_vehicle
+    status: active_production
+    description: Medium-altitude long-endurance (MALE) UAV
+    export_clients:
+      - Switzerland
+      - Brazil
+      - Mexico
+      - Morocco
+
+  - name: Iron Fist active protection system
+    type: protection
+    status: active_production
+    description: Active protection system (APS) for armored vehicles
+
+  - name: Electronic warfare suites
+    type: electronic_warfare
+    status: active_production
+    description: Self-protection EW suites for aircraft, helicopters, and naval platforms
+
+  - name: Head-up displays and helmets
+    type: avionics
+    status: active_production
+    description: Helmet-mounted displays (HMD) and HUD systems for fighter aircraft
+
+  - name: Precision-guided munitions
+    type: munitions
+    status: active_production
+    description: Guided mortar rounds, artillery shells, and rocket guidance kits
+
+sources:
+  - { name: "Elbit Systems Annual Report", url: "https://www.elbitsystems.com/investors" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

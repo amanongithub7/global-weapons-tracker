@@ -1,0 +1,28 @@
+name: Thales
+country: France
+type: defense_electronics
+
+key_programs:
+  - name: Ground Master 400
+    type: radar
+    status: active_production
+    description: Long-range 3D air defense radar
+
+  - name: RBE2 AESA radar
+    type: radar
+    status: active_production
+    description: Active electronically scanned array radar for Rafale fighter
+
+  - name: Sonar systems
+    type: naval_systems
+    status: active_production
+    description: Hull-mounted and towed array sonars for submarines and surface ships
+
+  - name: Command and control systems
+    type: c4isr
+    status: active_production
+    description: Integrated C2 systems for joint and combined operations
+
+sources:
+  - { name: "Thales Annual Report", url: "https://www.thalesgroup.com/en/investors" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

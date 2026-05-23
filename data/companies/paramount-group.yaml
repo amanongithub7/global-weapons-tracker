@@ -1,0 +1,32 @@
+name: Paramount Group
+country: South Africa
+type: private
+
+key_programs:
+  - name: Mbombe infantry fighting vehicle
+    type: armored_vehicle
+    status: active_production
+    description: 6x6 and 8x8 infantry fighting vehicle family with mine protection
+    export_clients:
+      - United Arab Emirates
+      - Jordan
+      - Kazakhstan
+
+  - name: Matador armored vehicle
+    type: armored_vehicle
+    status: active_production
+    description: Mine-resistant ambush-protected (MRAP) vehicle
+
+  - name: Maverick patrol vehicle
+    type: light_vehicle
+    status: active_production
+    description: Light tactical patrol vehicle for internal security
+
+  - name: Advanced Technology (stealth aircraft design)
+    type: aerospace
+    status: prototype
+    description: Stealth aircraft design and development projects
+
+sources:
+  - { name: "Paramount Group official site", url: "https://www.paramountgroup.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

@@ -1,0 +1,17 @@
+name: Construcciones Aeronáuticas SA (CASA Mexico)
+country: Mexico
+type: aerospace
+
+key_programs:
+  - name: Aircraft MRO services
+    type: aerospace_services
+    status: operational
+    description: Maintenance, repair and overhaul of military transport and patrol aircraft
+
+  - name: Component manufacturing
+    type: aerospace
+    status: active_production
+    description: Aerospace structural components and sub-assemblies
+
+sources:
+  - { name: "Airbus CASA official site", url: "https://www.airbus.com" }

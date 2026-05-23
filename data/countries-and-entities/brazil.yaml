@@ -1,0 +1,61 @@
+name: Brazil
+code: BR
+region: South America
+
+producers:
+  - name: Embraer Defense & Security
+    type: aerospace
+    products:
+      - KC-390 Millennium transport aircraft
+      - A-29 Super Tucano light attack aircraft
+      - E-99 (EMB-145 AEW&C) airborne early warning
+      - P-99 maritime patrol aircraft
+    revenue: 2.5B
+    revenue_year: 2023
+    employees: 7000
+
+  - name: Iveco Defence Vehicles Latin America
+    type: land_systems
+    products:
+      - VBTP-MR Guarani armored vehicle
+      - LMV-BR (Lince) light vehicle
+    employees: 500
+
+  - name: Avibras
+    type: missile_systems
+    products:
+      - Astros II multiple launch rocket system
+      - AV-SS Skyfire guided rocket system
+      - Anti-tank and air defense missiles
+    employees: 2000
+
+  - name: Marine Group (EMGEPRON)
+    type: naval_defense
+    products:
+      - Tamandaré-class frigates (project management)
+      - Conventional submarine program (PROSUB)
+      - Naval systems integration
+    employees: 1000
+
+  - name: Taurus Armas (defense division)
+    type: small_arms
+    products:
+      - Military handguns
+      - Submachine guns
+      - Law enforcement firearms
+
+top_export_destinations:
+  - country: United States
+    notes: A-29 Super Tucano, KC-390 orders
+  - country: Colombia
+    notes: A-29 Super Tucano, Astros II systems
+  - country: Portugal
+    notes: KC-390 transport aircraft
+  - country: Philippines
+    notes: A-29 Super Tucano, light attack aircraft
+  - country: Angola
+    notes: Embraer military aircraft, armored vehicles
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "Embraer Annual Report", url: "https://www.embraer.com/institutional/investors" }

@@ -1,0 +1,32 @@
+name: NORINCO (China North Industries Group Corporation)
+country: China
+type: diversified_defense
+
+key_programs:
+  - name: Type 99A main battle tank
+    type: main_battle_tank
+    status: active_production
+    description: 3rd-generation Chinese main battle tank with advanced armor and 125mm gun
+
+  - name: PLZ-05 self-propelled howitzer
+    type: artillery
+    status: active_production
+    description: 155mm tracked self-propelled howitzer
+
+  - name: HJ-12 anti-tank missile
+    type: missile
+    status: active_production
+    description: Man-portable fire-and-forget anti-tank guided missile (Red Arrow 12)
+
+  - name: FN-6 MANPADS
+    type: air_defense
+    status: active_production
+    description: Man-portable shoulder-fired surface-to-air missile
+
+  - name: VT-4 main battle tank
+    type: main_battle_tank
+    status: active_production
+    description: Export-oriented 3rd-generation main battle tank
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

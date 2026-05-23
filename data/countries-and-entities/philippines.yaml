@@ -1,0 +1,40 @@
+name: Philippines
+code: PH
+region: Asia-Pacific
+
+producers:
+  - name: Government Arsenal
+    type: state_owned
+    products:
+      - Small arms ammunition
+      - Mortar rounds and artillery shells
+      - Explosives
+    employees: 500
+
+  - name: Philippine Aerospace Development Corporation (PADC)
+    type: state_owned
+    products:
+      - Aircraft MRO services
+      - UAV development
+    employees: 200
+
+  - name: Steelcraft Naval Systems
+    type: private
+    products:
+      - Patrol craft and fast boats
+      - Small naval vessels
+    employees: 300
+
+top_import_sources:
+  - country: United States
+    notes: C-130 transports, attack helicopters (AH-1Z), coastal patrol vessels
+  - country: South Korea
+    notes: FA-50 light fighters, frigates (Jose Rizal-class), corvettes
+  - country: Israel
+    notes: Spyder air defense system, Elbit UAVs, Galil rifles
+  - country: India
+    notes: BrahMos anti-ship missiles (ordered)
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "Government Arsenal (Philippines)", url: "https://www.ga.dnd.ph" }

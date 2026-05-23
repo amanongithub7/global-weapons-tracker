@@ -1,0 +1,61 @@
+name: Denel
+country: South Africa
+type: state_owned
+founded: 1992
+
+key_programs:
+  - name: Rooivalk
+    type: attack_helicopter
+    status: operational
+    description: Dedicated attack helicopter (in service with South African Air Force)
+
+  - name: G6 Howitzer
+    type: artillery
+    status: active_production
+    description: 155mm self-propelled wheeled howitzer
+    export_clients:
+      - India
+      - United Arab Emirates
+
+  - name: Umkhonto
+    type: surface_to_air_missile
+    status: operational
+    description: Vertical-launch short-to-medium-range SAM system
+    export_clients:
+      - Finland
+      - Algeria
+
+  - name: Hoefyster
+    type: infantry_fighting_vehicle
+    status: active_production
+    description: Next-generation infantry fighting vehicle for South African Army
+
+  - name: Mokopa
+    type: anti_tank_missile
+    status: operational
+    description: Laser-guided anti-armor missile (helicopter and ground launched)
+
+suppliers:
+  - name: Paramount Group
+    country: South Africa
+    supplies: Armored vehicle technology, systems integration
+    relationship: partner
+
+  - name: Rheinmetall Denel Munition
+    country: South Africa (joint venture)
+    supplies: Artillery ammunition, propellants, fuzes
+    relationship: joint_venture
+
+  - name: BAE Systems (South Africa)
+    country: South Africa (UK-owned)
+    supplies: Land systems technology, electronics
+    relationship: partner
+
+  - name: ATE (Advanced Technologies & Engineering)
+    country: South Africa
+    supplies: Avionics integration, weapon system management
+    relationship: supplier
+
+sources:
+  - { name: "Denel Annual Report 2023", url: "https://www.denel.co.za/investors" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

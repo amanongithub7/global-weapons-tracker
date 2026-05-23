@@ -1,0 +1,28 @@
+name: PT Pindad
+country: Indonesia
+type: state_owned
+
+key_programs:
+  - name: Pindad Panser (Anoa) APC
+    type: armored_vehicle
+    status: active_production
+    description: 6x6 amphibious armored personnel carrier
+
+  - name: Harimau medium tank
+    type: main_battle_tank
+    status: active_production
+    description: Medium tank co-developed with FNSS (Turkey), 105mm gun
+
+  - name: SS-1 and SS-2 assault rifles
+    type: small_arms
+    status: active_production
+    description: Standard issue assault rifles for Indonesian military
+
+  - name: Mortar systems
+    type: artillery
+    status: active_production
+    description: 60mm, 81mm, and 120mm mortar systems
+
+sources:
+  - { name: "PT Pindad official site", url: "https://www.pindad.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

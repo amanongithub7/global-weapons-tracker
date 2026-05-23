@@ -1,0 +1,36 @@
+name: Dassault Aviation
+country: France
+type: prime_contractor
+
+key_programs:
+  - name: Rafale
+    type: fighter_aircraft
+    status: active_production
+    description: 4.5-generation multirole fighter aircraft (omnirole)
+    export_clients:
+      - India
+      - Egypt
+      - Qatar
+      - United Arab Emirates
+      - Greece
+      - Croatia
+      - Indonesia
+
+  - name: Mirage 2000
+    type: fighter_aircraft
+    status: legacy
+    description: 4th-generation multirole fighter (upgrade programs ongoing)
+
+  - name: nEUROn
+    type: unmanned_combat_air_vehicle
+    status: prototype
+    description: Stealth combat drone demonstrator (European collaboration)
+
+  - name: Falcon business jets
+    type: dual_use
+    status: active_production
+    description: Falcon series business jets used for special mission roles
+
+sources:
+  - { name: "Dassault Aviation Annual Report", url: "https://www.dassault-aviation.com/en/group/annual-reports/" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

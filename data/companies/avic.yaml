@@ -1,0 +1,32 @@
+name: AVIC (Aviation Industry Corporation of China)
+country: China
+type: aerospace
+
+key_programs:
+  - name: Chengdu J-20
+    type: fighter_aircraft
+    status: active_production
+    description: 5th-generation stealth fighter aircraft (Mighty Dragon)
+
+  - name: Shenyang J-16
+    type: fighter_aircraft
+    status: active_production
+    description: 4.5-generation multirole strike fighter
+
+  - name: Xi'an H-6K
+    type: bomber
+    status: active_production
+    description: Long-range strategic bomber (updated Tu-16 derivative carrying cruise missiles)
+
+  - name: Y-20 (Kunpeng)
+    type: transport_aircraft
+    status: active_production
+    description: Large strategic transport aircraft (similar to C-17 class)
+
+  - name: GJ-11 Sharp Sword
+    type: unmanned_combat_air_vehicle
+    status: operational
+    description: Stealth combat drone (flying wing design)
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

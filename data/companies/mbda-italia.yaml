@@ -1,0 +1,55 @@
+name: MBDA Italia
+country: Italy
+type: missile_systems
+founded: 2005
+
+key_programs:
+  - name: Aster missile family
+    type: missile
+    status: active_production
+    description: Family of surface-to-air missiles (Aster 15, Aster 30) for naval and ground-based air defense
+
+  - name: CAMM-ER
+    type: missile
+    status: active_production
+    description: Extended range common anti-air modular missile for ground-based air defense
+
+  - name: TESEO MK2/E
+    type: missile
+    status: active_production
+    description: Long-range anti-ship and land attack missile system
+
+  - name: Marte ER
+    type: missile
+    status: active_production
+    description: Extended range anti-ship missile for helicopters, UAVs, and naval platforms
+
+  - name: Sea Ceptor / CAMM
+    type: missile
+    status: active_production
+    description: Vertical launch naval air defense missile system
+
+suppliers:
+  - name: Leonardo
+    country: Italy
+    supplies: Seeker heads, targeting systems, avionics
+    relationship: tier_1
+
+  - name: Avio Aero (GE Aerospace)
+    country: Italy
+    supplies: Rocket motor components, propulsion systems
+    relationship: supplier
+
+  - name: Thales
+    country: France
+    supplies: Radar seekers, RF components
+    relationship: supplier
+
+  - name: MBDA France
+    country: France
+    supplies: Joint development, shared technology (Aster, CAMM)
+    relationship: joint_venture_partner
+
+sources:
+  - { name: "MBDA official site", url: "https://www.mbda-systems.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

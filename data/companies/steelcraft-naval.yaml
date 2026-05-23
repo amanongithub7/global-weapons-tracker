@@ -1,0 +1,17 @@
+name: Steelcraft Naval Systems
+country: Philippines
+type: private
+
+key_programs:
+  - name: Patrol craft and fast boats
+    type: naval_vessel
+    status: active_production
+    description: Fast patrol boats and interdiction craft for Philippine Navy and Coast Guard
+
+  - name: Small naval vessels
+    type: naval_vessel
+    status: active_production
+    description: Auxiliary vessels, landing craft, and small patrol boats
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

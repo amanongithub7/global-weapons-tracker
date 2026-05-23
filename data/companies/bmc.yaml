@@ -1,0 +1,32 @@
+name: BMC
+country: Turkey
+type: land_systems
+
+key_programs:
+  - name: Altay main battle tank
+    type: main_battle_tank
+    status: active_production
+    description: Turkish 3rd-generation main battle tank (Altay T1/T2 variants)
+
+  - name: Kirpi MRAP vehicles
+    type: armored_vehicle
+    status: active_production
+    description: Mine-resistant ambush-protected armored vehicle
+    export_clients:
+      - Qatar
+      - Ukraine
+      - Tunisia
+
+  - name: Amazon armored vehicles
+    type: light_vehicle
+    status: active_production
+    description: 4x4 tactical armored vehicle for reconnaissance and internal security
+
+  - name: Vuran tactical vehicles
+    type: armored_vehicle
+    status: active_production
+    description: 4x4 mine-protected tactical vehicle
+
+sources:
+  - { name: "BMC official site", url: "https://www.bmc.com.tr" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

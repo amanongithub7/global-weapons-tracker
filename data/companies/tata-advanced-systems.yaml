@@ -1,0 +1,23 @@
+name: Tata Advanced Systems
+country: India
+type: private
+
+key_programs:
+  - name: C-295 wing assemblies
+    type: aerospace
+    status: active_production
+    description: Wing assemblies for Airbus C-295 transport aircraft
+
+  - name: S-92 helicopter cabins
+    type: aerospace
+    status: active_production
+    description: Cabin structures for Sikorsky S-92 helicopters
+
+  - name: Electronic subsystems
+    type: defense_electronics
+    status: active_production
+    description: Avionics, radar sub-systems, and electronic components
+
+sources:
+  - { name: "Tata Advanced Systems official site", url: "https://www.tataadvancedsystems.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

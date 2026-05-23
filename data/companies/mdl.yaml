@@ -1,0 +1,28 @@
+name: Mazagon Dock Shipbuilders Limited (MDL)
+country: India
+type: state_owned
+
+key_programs:
+  - name: Kalvari-class submarines (Scorpène)
+    type: submarine
+    status: active_production
+    description: Scorpène-class conventional submarines built under license from Naval Group
+
+  - name: Visakhapatnam-class destroyers
+    type: naval_vessel
+    status: active_production
+    description: Stealth guided-missile destroyers (Project 15B)
+
+  - name: Shivalik-class frigates
+    type: naval_vessel
+    status: operational
+    description: Stealth multi-role frigates (Project 17)
+
+  - name: Offshore patrol vessels
+    type: naval_vessel
+    status: active_production
+    description: Various patrol vessels for Indian Navy and Coast Guard
+
+sources:
+  - { name: "MDL official site", url: "https://www.mazagondock.in" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

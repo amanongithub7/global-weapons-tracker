@@ -1,0 +1,33 @@
+name: Rolls-Royce (Defence)
+country: United Kingdom
+type: aerospace_engines
+
+key_programs:
+  - name: EJ200 engine
+    type: engine
+    status: active_production
+    description: Afterburning turbofan engine for Eurofighter Typhoon
+
+  - name: MT30 marine turbine
+    type: engine
+    status: active_production
+    description: High-power marine gas turbine (30-40 MW) for frigates, destroyers, and carriers
+    export_clients:
+      - Italy (FREMM, LHD Trieste)
+      - Japan (Mogami-class)
+      - South Korea (FFX Batch II/III)
+      - United States (Freedom-class LCS)
+
+  - name: Adour engine
+    type: engine
+    status: active_production
+    description: Turbofan engine for Hawk, T-45 Goshawk, and HAL Tejas trainers
+
+  - name: Nuclear propulsion (submarine)
+    type: engine
+    status: operational
+    description: PWR nuclear reactor systems for Royal Navy submarines (Astute, Dreadnought)
+
+sources:
+  - { name: "Rolls-Royce Annual Report", url: "https://www.rolls-royce.com/investors" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

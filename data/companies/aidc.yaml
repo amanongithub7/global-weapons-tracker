@@ -1,0 +1,28 @@
+name: Aerospace Industrial Development Corporation (AIDC)
+country: Taiwan
+type: state_owned
+
+key_programs:
+  - name: F-CK-1 Ching-kuo fighter
+    type: fighter_aircraft
+    status: operational
+    description: Indigenous light fighter aircraft with ongoing upgrade programs
+
+  - name: AT-3/T-5 Brave Eagle trainer
+    type: trainer_aircraft
+    status: active_production
+    description: Indigenous advanced jet trainer replacing AT-3
+
+  - name: Indigenous Defense Fighter upgrades
+    type: aerospace_services
+    status: operational
+    description: Avionics and radar modernization for F-CK-1 fleet
+
+  - name: UAV development
+    type: unmanned_aerial_vehicle
+    status: prototype
+    description: Indigenous UAV design and development programs
+
+sources:
+  - { name: "AIDC official site", url: "https://www.aidc.com.tw" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

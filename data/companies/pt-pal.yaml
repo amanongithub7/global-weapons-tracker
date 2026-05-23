@@ -1,0 +1,28 @@
+name: PT PAL Indonesia
+country: Indonesia
+type: state_owned
+
+key_programs:
+  - name: Nagapasa-class submarines
+    type: submarine
+    status: active_production
+    description: Type 209/1400 submarines built with DSME (South Korea) technology transfer
+
+  - name: Bung Tomo-class corvettes
+    type: naval_vessel
+    status: operational
+    description: Ex-Royal Navy corvettes refitted and modernized
+
+  - name: Landing platform dock ships
+    type: amphibious
+    status: active_production
+    description: Strategic sealift and amphibious assault vessels
+
+  - name: Fast missile boats
+    type: naval_vessel
+    status: active_production
+    description: High-speed attack craft with anti-ship missiles
+
+sources:
+  - { name: "PT PAL official site", url: "https://www.pal.co.id" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

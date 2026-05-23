@@ -1,0 +1,28 @@
+name: PT Dirgantara Indonesia (PTDI)
+country: Indonesia
+type: state_owned
+
+key_programs:
+  - name: CN-235 transport aircraft
+    type: transport_aircraft
+    status: active_production
+    description: Twin-engine medium transport (co-developed with Airbus/CASA)
+
+  - name: NC-212 transport aircraft
+    type: transport_aircraft
+    status: active_production
+    description: Light twin-engine transport (licensed from Airbus/CASA)
+
+  - name: N-219 light transport
+    type: transport_aircraft
+    status: active_production
+    description: Indigenous 19-seat twin-turboprop utility aircraft
+
+  - name: NAS-332 helicopter
+    type: helicopter
+    status: active_production
+    description: Licensed assembly of Eurocopter Super Puma helicopters
+
+sources:
+  - { name: "PTDI official site", url: "https://www.dirgantara-indonesia.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

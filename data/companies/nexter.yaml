@@ -1,0 +1,34 @@
+name: Nexter (KNDS France)
+country: France
+type: land_systems
+
+key_programs:
+  - name: Leclerc main battle tank
+    type: main_battle_tank
+    status: operational
+    description: 3rd-generation French main battle tank with autoloader
+
+  - name: CAESAR self-propelled howitzer
+    type: artillery
+    status: active_production
+    description: 155mm wheeled self-propelled howitzer (6x6 and 8x8 variants)
+    export_clients:
+      - Saudi Arabia
+      - Denmark
+      - Czech Republic
+      - Indonesia
+      - Lithuania
+
+  - name: VBCI infantry fighting vehicle
+    type: armored_vehicle
+    status: active_production
+    description: 8x8 wheeled infantry fighting vehicle for French Army
+
+  - name: Vulcano guided artillery projectile
+    type: munitions
+    status: active_production
+    description: Long-range precision-guided 155mm artillery shell
+
+sources:
+  - { name: "KNDS official site", url: "https://www.knds.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

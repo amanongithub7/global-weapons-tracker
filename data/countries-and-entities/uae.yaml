@@ -1,0 +1,52 @@
+name: United Arab Emirates
+code: AE
+region: Middle-East
+
+producers:
+  - name: EDGE Group
+    type: state_owned
+    products:
+      - Nimr armored vehicles
+      - Desert Sting guided rocket system
+      - ADASI unmanned systems (Garmoosha, QX series)
+      - AL TARIQ precision guidance kits
+    revenue: 5.0B
+    revenue_year: 2023
+    employees: 13000
+
+  - name: Al Tariq
+    type: munitions
+    products:
+      - AL TARIQ precision guidance kits (bomb conversion)
+      - Smart glide bombs
+
+  - name: Abu Dhabi Ship Building
+    type: naval_defense
+    products:
+      - Baynunah-class corvettes
+      - Falaj 2-class patrol vessels
+      - Ship repair and maintenance
+    employees: 800
+
+  - name: GAL (Global Aerospace Logistics)
+    type: aerospace_services
+    products:
+      - Aircraft MRO services
+      - Pilot training
+      - Unmanned system operations
+
+top_export_destinations:
+  - country: Saudi Arabia
+    notes: Nimr armored vehicles, guided munitions
+  - country: Egypt
+    notes: Patrol boats, armored vehicles
+  - country: Algeria
+    notes: EDGE munitions, armored vehicles
+  - country: Jordan
+    notes: Armored vehicles, UAV systems
+  - country: Serbia
+    notes: Defense technology partnership
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "EDGE Group official site", url: "https://www.edgegroup.ae" }

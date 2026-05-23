@@ -1,0 +1,27 @@
+name: National Development Complex (NDC)
+country: Pakistan
+type: government_agency
+
+key_programs:
+  - name: Shaheen ballistic missile
+    type: ballistic_missile
+    status: operational
+    description: Family of solid-fuel medium-to-intermediate range ballistic missiles
+
+  - name: Ghauri ballistic missile
+    type: ballistic_missile
+    status: operational
+    description: Liquid-fuel medium-range ballistic missile
+
+  - name: Cruise missile development
+    type: cruise_missile
+    status: active_production
+    description: Babur and Ra'ad land attack cruise missiles
+
+  - name: Air defense systems
+    type: air_defense
+    status: active_production
+    description: Indigenous air defense systems development
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

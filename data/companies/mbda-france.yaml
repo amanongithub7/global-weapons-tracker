@@ -1,0 +1,33 @@
+name: MBDA (France)
+country: France
+type: missile_systems
+
+key_programs:
+  - name: Storm Shadow / SCALP
+    type: cruise_missile
+    status: active_production
+    description: Long-range air-launched cruise missile (range 560km, stealth design)
+
+  - name: Aster missile family
+    type: missile
+    status: active_production
+    description: Family of surface-to-air missiles (Aster 15, Aster 30) for naval and ground-based air defense
+
+  - name: MICA
+    type: air_to_air_missile
+    status: active_production
+    description: Beyond-visual-range air-to-air missile (also VL MICA surface-launched variant)
+
+  - name: Exocet
+    type: anti_ship_missile
+    status: active_production
+    description: MM40 Block 3 surface/ship-launched anti-ship missile
+
+  - name: Mistral
+    type: manpads
+    status: active_production
+    description: Man-portable surface-to-air missile with infrared guidance
+
+sources:
+  - { name: "MBDA official site", url: "https://www.mbda-systems.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

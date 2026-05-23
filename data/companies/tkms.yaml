@@ -1,0 +1,33 @@
+name: ThyssenKrupp Marine Systems (TKMS)
+country: Germany
+type: naval_defense
+
+key_programs:
+  - name: Type 214 submarines
+    type: submarine
+    status: active_production
+    description: Diesel-electric attack submarine with fuel cell AIP (exported to Greece, South Korea, Turkey, Portugal)
+    export_clients:
+      - South Korea
+      - Greece
+      - Turkey
+      - Portugal
+
+  - name: Type 209 submarines
+    type: submarine
+    status: active_production
+    description: Highly successful export submarine family (sold to 14 navies worldwide)
+
+  - name: Type 212A submarines
+    type: submarine
+    status: active_production
+    description: Fuel cell AIP submarine for German and Italian navies
+
+  - name: MEKO-class frigates
+    type: naval_vessel
+    status: active_production
+    description: Modular frigate family (exported to multiple navies)
+
+sources:
+  - { name: "TKMS official site", url: "https://www.thyssenkrupp-marinesystems.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

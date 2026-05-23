@@ -1,0 +1,44 @@
+name: Avibras
+country: Brazil
+type: missile_systems
+founded: 1961
+
+key_programs:
+  - name: Astros II MLRS
+    type: rocket_artillery
+    status: active_production
+    description: Multiple launch rocket system with guided and unguided rockets (30-300km range)
+    export_clients:
+      - Colombia
+      - Indonesia
+      - Malaysia
+
+  - name: AV-SF-70 Skyfire
+    type: guided_rocket
+    status: active_production
+    description: 70mm laser-guided rocket for helicopter and UAV use
+
+  - name: AV-TM 300
+    type: cruise_missile
+    status: prototype
+    description: Long-range tactical cruise missile
+
+  - name: Anti-tank missiles
+    type: missile
+    status: operational
+    description: Anti-tank guided missile systems
+
+suppliers:
+  - name: Embraer Defense
+    country: Brazil
+    supplies: Integration support, electronics
+    relationship: partner
+
+  - name: AEL Sistemas
+    country: Brazil
+    supplies: Guidance electronics, seeker heads
+    relationship: supplier
+
+sources:
+  - { name: "Avibras official site", url: "https://www.avibras.com.br" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

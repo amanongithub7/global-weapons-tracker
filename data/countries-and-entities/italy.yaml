@@ -1,0 +1,59 @@
+name: Italy
+code: IT
+region: Europe
+
+producers:
+  - name: Leonardo
+    type: prime_contractor
+    products:
+      - Eurofighter Typhoon
+      - M-346 Master trainer
+      - AW101 and AW149 helicopters
+      - C-27J Spartan transport
+      - Electronic warfare systems
+    revenue: 17.3B
+    revenue_year: 2023
+    employees: 53000
+
+  - name: Fincantieri
+    type: naval_defense
+    products:
+      - FREMM frigates
+      - PPA (Pattugliatori Polivalenti d'Altura)
+      - Todaro-class submarines
+      - Aircraft carrier Cavour
+    revenue: 8.2B
+    revenue_year: 2023
+    employees: 22000
+
+  - name: MBDA Italia
+    type: missile_systems
+    products:
+      - Aster missile family
+      - CAMM-ER air defense missile
+      - TESEO anti-ship missiles
+      - Marte anti-ship missiles
+
+  - name: Iveco Defence Vehicles
+    type: land_systems
+    products:
+      - Centauro II tank destroyer
+      - Freccia infantry fighting vehicle
+      - VTLM Lince light vehicle
+    employees: 3000
+
+top_export_destinations:
+  - country: Egypt
+    notes: FREMM frigates, Eurofighter Typhoon (pending)
+  - country: Kuwait
+    notes: Eurofighter Typhoon
+  - country: Qatar
+    notes: AW139 helicopters, FREMM-class frigates
+  - country: United Arab Emirates
+    notes: M-346 trainers, AW139 helicopters
+  - country: Indonesia
+    notes: FREMM frigates, naval systems
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "Leonardo Annual Report 2023", url: "https://www.leonardo.com/en/investors" }

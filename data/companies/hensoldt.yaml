@@ -1,0 +1,28 @@
+name: Hensoldt
+country: Germany
+type: defense_electronics
+
+key_programs:
+  - name: TRML-4D radar
+    type: radar
+    status: active_production
+    description: Multi-functional 4D AESA radar for ground-based air defense
+
+  - name: Spexer radar sensors
+    type: radar
+    status: active_production
+    description: 3D AESA naval radar family for air and surface surveillance
+
+  - name: Electronic warfare systems
+    type: electronic_warfare
+    status: active_production
+    description: Integrated electronic support and countermeasure systems
+
+  - name: Optronics and targeting systems
+    type: optronics
+    status: active_production
+    description: Thermal imaging, laser range finders, and targeting pods
+
+sources:
+  - { name: "Hensoldt Annual Report", url: "https://www.hensoldt.net/investors" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

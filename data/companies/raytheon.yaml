@@ -1,0 +1,35 @@
+name: Raytheon (RTX)
+country: United States
+type: prime_contractor
+
+key_programs:
+  - name: Patriot missile systems
+    type: air_defense
+    status: active_production
+    description: Patriot Advanced Capability-3 (PAC-3) and PAC-3 MSE air and missile defense system
+    export_clients:
+      - Germany
+      - Japan
+      - Saudi Arabia
+      - Ukraine
+      - Poland
+      - Sweden
+
+  - name: Tomahawk cruise missile
+    type: cruise_missile
+    status: active_production
+    description: Ship and submarine-launched long-range land attack cruise missile (Block V)
+
+  - name: Stinger missiles
+    type: manpads
+    status: active_production
+    description: Man-portable infrared-guided surface-to-air missile
+
+  - name: Javelin anti-tank missiles
+    type: missile
+    status: active_production
+    description: Fire-and-forget anti-tank guided missile (joint with Lockheed Martin)
+
+sources:
+  - { name: "RTX Annual Report 2023", url: "https://www.rtx.com/investors" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

@@ -1,0 +1,30 @@
+name: Bharat Electronics Limited (BEL)
+country: India
+type: state_owned
+
+key_programs:
+  - name: Akash surface-to-air missile system
+    type: air_defense
+    status: active_production
+    description: Indigenous medium-range surface-to-air missile system
+    export_clients:
+      - Myanmar
+
+  - name: Electronic warfare systems
+    type: electronic_warfare
+    status: active_production
+    description: Integrated electronic warfare suites for naval, air, and land platforms
+
+  - name: Radars (Arudhra, Ashwini)
+    type: radar
+    status: active_production
+    description: 3D air surveillance and fire control radars
+
+  - name: C4I systems
+    type: c4isr
+    status: active_production
+    description: Command, control, communications, computers, and intelligence systems
+
+sources:
+  - { name: "BEL Annual Report", url: "https://www.bel-india.in" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

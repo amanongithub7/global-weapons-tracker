@@ -1,0 +1,23 @@
+name: Saab South Africa (formerly Grintek)
+country: South Africa
+type: defense_electronics
+
+key_programs:
+  - name: Electronic warfare systems
+    type: electronic_warfare
+    status: active_production
+    description: Self-protection EW suites, ELINT/ESM systems for air, land, and naval platforms
+
+  - name: Communication systems
+    type: communication
+    status: active_production
+    description: Secure tactical communication and data-link systems
+
+  - name: Radar systems
+    type: radar
+    status: active_production
+    description: Air surveillance and fire control radar systems
+
+sources:
+  - { name: "Saab official site", url: "https://www.saab.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

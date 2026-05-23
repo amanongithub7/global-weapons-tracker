@@ -1,0 +1,18 @@
+name: Al Tariq
+country: United Arab Emirates
+type: munitions
+
+key_programs:
+  - name: AL TARIQ precision guidance kits
+    type: munitions
+    status: active_production
+    description: Long-range precision guidance kit for converting general purpose bombs into smart munitions
+
+  - name: Smart glide bombs
+    type: munitions
+    status: active_production
+    description: Extended-range glide bomb kits with GPS/INS guidance
+
+sources:
+  - { name: "EDGE Group official site", url: "https://www.edgegroup.ae" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

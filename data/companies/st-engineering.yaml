@@ -1,0 +1,62 @@
+name: ST Engineering
+country: Singapore
+type: diversified_defense
+founded: 1967
+
+key_programs:
+  - name: Terrex ICV
+    type: infantry_fighting_vehicle
+    status: active_production
+    description: 8x8 infantry carrier vehicle
+    export_clients:
+      - Brazil
+
+  - name: Hunter AFV
+    type: armored_fighting_vehicle
+    status: active_production
+    description: Next-generation tracked armored fighting vehicle
+
+  - name: Skyblade UAV
+    type: unmanned_aerial_vehicle
+    status: operational
+    description: Tactical unmanned aerial system
+
+  - name: Independence-class LCS
+    type: naval_vessel
+    status: operational
+    description: Littoral mission vessel for Republic of Singapore Navy
+
+  - name: Formidable-class frigates
+    type: naval_vessel
+    status: operational
+    description: Multi-role stealth frigates (derived from La Fayette class)
+
+suppliers:
+  - name: MTU Friedrichshafen (Rolls-Royce)
+    country: Germany
+    supplies: Diesel engines (Terrex, Hunter)
+    relationship: supplier
+
+  - name: Rafael Advanced Defense Systems
+    country: Israel
+    supplies: SAMSON remote weapon stations, Spike missiles
+    relationship: integration_partner
+
+  - name: Thales
+    country: France
+    supplies: Naval combat systems, sensors (Formidable-class)
+    relationship: supplier
+
+  - name: Elbit Systems
+    country: Israel
+    supplies: Electronic warfare systems, sensors
+    relationship: supplier
+
+  - name: Diehl Defence
+    country: Germany
+    supplies: Ammunition, missile systems
+    relationship: supplier
+
+sources:
+  - { name: "ST Engineering Annual Report 2023", url: "https://www.stengg.com/investors" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

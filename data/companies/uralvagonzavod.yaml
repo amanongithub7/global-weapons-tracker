@@ -1,0 +1,27 @@
+name: Uralvagonzavod (UVZ)
+country: Russia
+type: defense_contractor
+
+key_programs:
+  - name: T-14 Armata main battle tank
+    type: main_battle_tank
+    status: active_production
+    description: 4th-generation unmanned turret main battle tank with 152mm gun option
+
+  - name: T-90M Proryv main battle tank
+    type: main_battle_tank
+    status: active_production
+    description: Deep modernization of T-90 with advanced armor and fire control
+
+  - name: T-72B3 upgrade
+    type: main_battle_tank
+    status: active_production
+    description: Cost-effective upgrade of legacy T-72 tanks to modern standards
+
+  - name: BMPT Terminator
+    type: armored_vehicle
+    status: active_production
+    description: Heavy tank support fighting vehicle with missile and cannon armament
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

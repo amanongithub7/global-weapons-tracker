@@ -1,0 +1,23 @@
+name: Government Arsenal
+country: Philippines
+type: state_owned
+
+key_programs:
+  - name: Small arms ammunition
+    type: munitions
+    status: active_production
+    description: Production of 5.56mm and 9mm ammunition for military and law enforcement
+
+  - name: Mortar rounds and artillery shells
+    type: munitions
+    status: active_production
+    description: 60mm, 81mm mortar rounds and artillery ammunition
+
+  - name: Explosives
+    type: munitions
+    status: active_production
+    description: Military explosives, demolition charges, and pyrotechnics
+
+sources:
+  - { name: "Government Arsenal (Philippines)", url: "https://www.ga.dnd.ph" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

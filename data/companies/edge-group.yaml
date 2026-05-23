@@ -1,0 +1,62 @@
+name: EDGE Group
+country: United Arab Emirates
+type: diversified_defense
+founded: 2019
+
+key_programs:
+  - name: Nimr 8x8 / 6x6
+    type: armored_vehicle
+    status: active_production
+    description: Family of multirole armored vehicles
+    export_clients:
+      - Saudi Arabia
+
+  - name: Desert Sting
+    type: guided_rocket
+    status: active_production
+    description: Long-range guided multiple launch rocket system
+
+  - name: AL TARIQ
+    type: precision_munition
+    status: active_production
+    description: Long-range precision guidance kit for general purpose bombs
+
+  - name: Garmoosha UAV
+    type: unmanned_aerial_vehicle
+    status: operational
+    description: Rotary-wing tactical UAV
+
+  - name: ADASI QX-series
+    type: unmanned_aerial_vehicle
+    status: operational
+    description: Fixed-wing tactical and loitering munition UAVs
+
+suppliers:
+  - name: Denel
+    country: South Africa
+    supplies: Artillery systems, missile technology transfer
+    relationship: technology_partner
+
+  - name: Safran
+    country: France
+    supplies: Optronics, navigation systems
+    relationship: supplier
+
+  - name: Thales
+    country: France
+    supplies: Radar, communication systems
+    relationship: supplier
+
+  - name: MBDA
+    country: Europe (multinational)
+    supplies: Missile technology, integration support
+    relationship: partner
+
+  - name: SAAB
+    country: Sweden
+    supplies: C4ISR systems, radar technology
+    relationship: partner
+
+sources:
+  - { name: "EDGE Group official site", url: "https://www.edgegroup.ae" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

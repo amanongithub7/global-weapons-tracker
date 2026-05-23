@@ -1,0 +1,45 @@
+name: Rafael Advanced Defense Systems
+country: Israel
+type: state_owned
+
+key_programs:
+  - name: Iron Dome
+    type: air_defense
+    status: active_production
+    description: Short-range rocket and artillery rocket defense system
+    export_clients:
+      - United States
+      - Romania
+      - Azerbaijan
+
+  - name: David's Sling
+    type: air_defense
+    status: active_production
+    description: Medium-to-long-range air defense system (with Raytheon)
+
+  - name: Spike anti-tank missile
+    type: missile
+    status: active_production
+    description: Family of multi-purpose anti-tank guided missiles (man-portable, vehicle, helicopter launched)
+    export_clients:
+      - India
+      - Netherlands
+      - Poland
+      - Germany
+      - United Kingdom
+
+  - name: Trophy active protection system
+    type: protection
+    status: active_production
+    description: Tank and armored vehicle active protection system (APS)
+    export_clients:
+      - United States
+
+  - name: SPICE precision bombs
+    type: munitions
+    status: active_production
+    description: Smart, precise, impact, and cost-effective guidance kits for air-to-surface bombs
+
+sources:
+  - { name: "Rafael official site", url: "https://www.rafael.co.il" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

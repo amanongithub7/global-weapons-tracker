@@ -1,0 +1,17 @@
+name: Innovación y Desarrollo (INDES)
+country: Mexico
+type: private
+
+key_programs:
+  - name: UAV systems
+    type: unmanned_aerial_vehicle
+    status: active_production
+    description: Tactical unmanned aerial systems for surveillance and reconnaissance
+
+  - name: Surveillance systems
+    type: defense_electronics
+    status: active_production
+    description: Fixed and mobile ground surveillance and monitoring systems
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

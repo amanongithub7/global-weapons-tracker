@@ -1,0 +1,51 @@
+name: Pakistan
+code: PK
+region: Asia-Pacific
+
+producers:
+  - name: Pakistan Aeronautical Complex (PAC)
+    type: state_owned
+    products:
+      - JF-17 Thunder fighter (with China)
+      - MFI-17 Mushshak trainer
+      - Mirage III/V upgrade programs
+      - K-8 Karakoram trainer licensed production
+    revenue: 1.0B
+    revenue_year: 2023
+    employees: 12000
+
+  - name: Karachi Shipyard & Engineering Works
+    type: naval_defense
+    products:
+      - Agosta 90B submarine maintenance
+      - Azmat-class missile boats
+      - PN MILGEM corvettes (with Turkey)
+    employees: 3500
+
+  - name: Heavy Industries Taxila (HIT)
+    type: land_systems
+    products:
+      - Al-Khalid main battle tank
+      - Al-Zarrar main battle tank
+      - Infantry fighting vehicles
+      - Armored personnel carriers
+    employees: 6000
+
+  - name: National Development Complex (NDC)
+    type: government_agency
+    products:
+      - Shaheen and Ghauri ballistic missiles
+      - Cruise missile development
+      - Air defense systems
+
+top_import_sources:
+  - country: China
+    notes: JF-17 components, Type 054 frigates, submarines, tanks
+  - country: Turkey
+    notes: MILGEM corvettes, T129 ATAK helicopters, Bayraktar UAVs
+  - country: United States
+    notes: F-16 sustainment (limited), technical support
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "PAC official site", url: "https://www.pac.org.pk" }

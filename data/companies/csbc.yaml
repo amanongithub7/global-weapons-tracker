@@ -1,0 +1,23 @@
+name: CSBC Corporation
+country: Taiwan
+type: naval_defense
+
+key_programs:
+  - name: Indigenous submarine program
+    type: submarine
+    status: in_development
+    description: Indigenous submarine construction program for Republic of China Navy
+
+  - name: Tuo Chiang-class corvettes
+    type: naval_vessel
+    status: active_production
+    description: Stealth multi-mission corvettes with anti-ship and air defense capabilities
+
+  - name: Offshore patrol vessels
+    type: naval_vessel
+    status: active_production
+    description: Patrol vessels for Coast Guard Administration and Navy
+
+sources:
+  - { name: "CSBC Corporation official site", url: "https://www.csbcnet.com.tw" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

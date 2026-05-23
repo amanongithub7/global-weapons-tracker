@@ -1,0 +1,40 @@
+name: Bombardier Defence
+country: Canada
+type: aerospace
+founded: 2015
+
+key_programs:
+  - name: Global 6000/6500 SIGINT
+    type: special_mission
+    status: active_production
+    description: Bombardier Global business jet platforms configured for signals intelligence (SIGINT) and electronic warfare
+
+  - name: GlobalEye AEW&C (with SAAB)
+    type: airborne_early_warning
+    status: active_production
+    description: Global 6000-based airborne early warning and control platform (sold to UAE, Sweden)
+
+  - name: Multi-mission aircraft platforms
+    type: special_mission
+    status: active_production
+    description: Bombardier platforms configured for maritime surveillance, medical evacuation, and transport
+
+suppliers:
+  - name: SAAB
+    country: Sweden
+    supplies: Erieye radar and mission system integration (GlobalEye)
+    relationship: integration_partner
+
+  - name: CAE
+    country: Canada
+    supplies: Mission systems, simulation and training
+    relationship: supplier
+
+  - name: L3Harris
+    country: United States
+    supplies: SIGINT mission system integration
+    relationship: integration_partner
+
+sources:
+  - { name: "Bombardier Defence official site", url: "https://bombardier.com/en/defence" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

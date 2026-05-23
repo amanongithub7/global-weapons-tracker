@@ -1,0 +1,33 @@
+name: Airbus Defence and Space (Spain)
+country: Spain
+type: aerospace
+
+key_programs:
+  - name: C-295 transport aircraft
+    type: transport_aircraft
+    status: active_production
+    description: Twin-turboprop tactical transport aircraft (manufactured in Seville)
+    export_clients:
+      - Colombia
+      - Jordan
+      - Poland
+      - United Arab Emirates
+
+  - name: A400M wing manufacturing
+    type: aerospace
+    status: active_production
+    description: Wing assembly and manufacturing for A400M Atlas transport aircraft
+
+  - name: Eurofighter Typhoon component manufacturing
+    type: aerospace
+    status: active_production
+    description: Rear fuselage and component manufacturing for Eurofighter
+
+  - name: Satellite systems
+    type: satellite
+    status: active_production
+    description: Military and dual-use satellite design, manufacturing, and testing
+
+sources:
+  - { name: "Airbus Defence and Space official site", url: "https://www.airbus.com/en/products-services/defence" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

@@ -1,0 +1,45 @@
+name: Mexico
+code: MX
+region: North America
+
+producers:
+  - name: Secretaría de Marina (SEMAR)
+    type: government_agency
+    products:
+      - ARM Reformador-class patrol vessels
+      - Oaxaca-class patrol vessels
+      - Naval shipbuilding and repair
+    employees: 5000
+
+  - name: Secretaría de la Defensa Nacional (SEDENA)
+    type: government_agency
+    products:
+      - FX-05 Xiuhcoatl assault rifle
+      - DN-XI (Balam) armored vehicle
+      - Artillery systems
+      - Ammunition production
+    employees: 3000
+
+  - name: Construcciones Aeronáuticas SA (CASA Mexico)
+    type: aerospace
+    products:
+      - Aircraft MRO services
+      - Component manufacturing
+
+  - name: Innovación y Desarrollo (INDES)
+    type: private
+    products:
+      - UAV systems
+      - Surveillance systems
+
+top_import_sources:
+  - country: United States
+    notes: MRO services, helicopters, aircraft, training systems
+  - country: Spain
+    notes: Maritime patrol aircraft, naval systems
+  - country: Israel
+    notes: UAVs, surveillance systems, small arms
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "SEDENA official site", url: "https://www.gob.mx/sedena" }

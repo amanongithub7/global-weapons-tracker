@@ -1,0 +1,24 @@
+name: Taurus Armas (defense division)
+country: Brazil
+type: small_arms
+founded: 1939
+
+key_programs:
+  - name: Taurus military handguns
+    type: small_arms
+    status: active_production
+    description: Full line of semi-automatic pistols for military and law enforcement (TH, TS, G2 series)
+
+  - name: Taurus submachine guns
+    type: small_arms
+    status: active_production
+    description: Compact submachine guns for special forces and police
+
+  - name: Taurus firearms
+    type: small_arms
+    status: active_production
+    description: Rifles, shotguns, and military-grade firearms
+
+sources:
+  - { name: "Taurus Armas official site", url: "https://www.taurusarmas.com.br" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

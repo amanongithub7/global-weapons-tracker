@@ -1,0 +1,24 @@
+name: L3Harris Technologies (Canada)
+country: Canada
+type: aerospace
+founded: 2019
+
+key_programs:
+  - name: Maritime patrol aircraft systems
+    type: aerospace
+    status: active_production
+    description: Mission systems integration for CP-140 Aurora and P-8 Poseidon maritime patrol aircraft
+
+  - name: C-130 avionics upgrades
+    type: aerospace_services
+    status: operational
+    description: Avionics modernization programs for C-130 Hercules fleet
+
+  - name: Mine detection systems
+    type: naval_systems
+    status: operational
+    description: Airborne and ship-based mine countermeasure systems
+
+sources:
+  - { name: "L3Harris official site", url: "https://www.l3harris.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

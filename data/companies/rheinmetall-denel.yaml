@@ -1,0 +1,23 @@
+name: Rheinmetall Denel Munition
+country: South Africa
+type: munitions
+
+key_programs:
+  - name: Artillery shells and propellants
+    type: munitions
+    status: active_production
+    description: 155mm artillery shells, modular charge systems, and propellants
+
+  - name: Mortar systems
+    type: artillery
+    status: active_production
+    description: 60mm, 81mm, and 120mm mortar systems and ammunition
+
+  - name: Tank ammunition
+    type: munitions
+    status: active_production
+    description: 105mm and 120mm tank ammunition including APFSDS-T rounds
+
+sources:
+  - { name: "Rheinmetall Denel Munition official site", url: "https://www.rheinmetall-denel-munition.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

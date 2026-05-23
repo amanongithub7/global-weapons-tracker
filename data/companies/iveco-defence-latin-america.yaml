@@ -1,0 +1,35 @@
+name: Iveco Defence Vehicles Latin America
+country: Brazil
+type: land_systems
+founded: 2010
+
+key_programs:
+  - name: VBTP-MR Guarani
+    type: armored_vehicle
+    status: active_production
+    description: 6x6 amphibious armored personnel carrier for Brazilian Army
+
+  - name: LMV-BR (Lince)
+    type: light_vehicle
+    status: active_production
+    description: Light multirole tactical vehicle licensed from Iveco Defence
+
+suppliers:
+  - name: Iveco Defence Vehicles (Italy)
+    country: Italy
+    supplies: Platform design, drivetrain technology
+    relationship: parent_company
+
+  - name: Embraer Defense
+    country: Brazil
+    supplies: C4ISR systems integration
+    relationship: supplier
+
+  - name: AEL Sistemas
+    country: Brazil
+    supplies: Remote weapon stations, electronic systems
+    relationship: supplier
+
+sources:
+  - { name: "Iveco Defence Vehicles", url: "https://www.iveco.com/defence" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

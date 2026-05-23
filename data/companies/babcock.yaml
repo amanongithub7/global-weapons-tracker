@@ -1,0 +1,63 @@
+name: Babcock International
+country: United Kingdom
+type: defense_services
+founded: 1891
+
+key_programs:
+  - name: Astute-class submarine support
+    type: submarine
+    status: operational
+    description: In-service support for Royal Navy Astute-class nuclear submarines
+
+  - name: Type 31 frigate (Inspiration-class)
+    type: naval_vessel
+    status: active_production
+    description: General-purpose frigate for Royal Navy (Arrowhead 140 design)
+    export_clients:
+      - Poland
+      - Indonesia
+
+  - name: Queen Elizabeth-class carrier support
+    type: naval
+    status: operational
+    description: In-service support for Royal Navy aircraft carriers
+
+  - name: Defence Training
+    type: training
+    status: operational
+    description: Management of UK Ministry of Defence training programs
+
+  - name: Emergency Response Systems
+    type: dual_use
+    status: operational
+    description: Nuclear emergency response and decommissioning
+
+suppliers:
+  - name: BAE Systems
+    country: United Kingdom
+    supplies: Combat systems integration, electronic systems (Type 31)
+    relationship: integration_partner
+
+  - name: Thales UK
+    country: United Kingdom (French-owned)
+    supplies: Sensors, sonar, navigation systems
+    relationship: supplier
+
+  - name: Rolls-Royce
+    country: United Kingdom
+    supplies: MT30 gas turbines, nuclear propulsion expertise
+    relationship: supplier
+
+  - name: MBDA UK
+    country: United Kingdom
+    supplies: Missile systems integration (Sea Ceptor for Type 31)
+    relationship: integration_partner
+
+  - name: GE Power Conversion
+    country: United Kingdom (US-owned)
+    supplies: Electrical propulsion systems
+    relationship: supplier
+
+sources:
+  - { name: "Babcock Annual Report 2023", url: "https://www.babcockinternational.com/investors/" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

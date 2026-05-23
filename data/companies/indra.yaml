@@ -1,0 +1,55 @@
+name: Indra
+country: Spain
+type: defense_electronics
+founded: 1921
+
+key_programs:
+  - name: Lanza air defense radar
+    type: radar
+    status: active_production
+    description: 3D long-range air surveillance radar (Lanza-N, Lanza-3D)
+
+  - name: C4ISTAR systems
+    type: command_and_control
+    status: operational
+    description: Integrated command, control, communications, computers, intelligence, surveillance, target acquisition and reconnaissance systems
+
+  - name: Electronic Warfare Suite
+    type: electronic_warfare
+    status: active_production
+    description: Integrated countermeasure and electronic support systems
+
+  - name: Simulators and Trainers
+    type: training
+    status: active_production
+    description: Flight, naval and ground vehicle simulators
+
+  - name: iMUS (Integrated Management Unit System)
+    type: communication
+    status: operational
+    description: Tactical communication and information system
+
+suppliers:
+  - name: Rohde & Schwarz
+    country: Germany
+    supplies: Communication components, signal processing
+    relationship: supplier
+
+  - name: Thales
+    country: France
+    supplies: Radar components, identification systems (IFF)
+    relationship: supplier
+
+  - name: Navantia
+    country: Spain
+    supplies: Platform integration for naval combat systems
+    relationship: integration_partner
+
+  - name: Indra Sistemas (subsidiaries)
+    country: Spain
+    supplies: Electronic sub-systems, software
+    relationship: internal
+
+sources:
+  - { name: "Indra Annual Report 2023", url: "https://www.indracompany.com/en/investors" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

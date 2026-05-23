@@ -1,0 +1,31 @@
+name: Baykar
+country: Turkey
+type: private
+
+key_programs:
+  - name: Bayraktar TB2 drone
+    type: unmanned_aerial_vehicle
+    status: active_production
+    description: Medium-altitude long-endurance tactical armed UAV
+    export_clients:
+      - Ukraine
+      - Pakistan
+      - Poland
+      - Qatar
+      - Azerbaijan
+      - Morocco
+      - Ethiopia
+
+  - name: Bayraktar Akıncı drone
+    type: unmanned_aerial_vehicle
+    status: active_production
+    description: High-altitude long-endurance heavy armed UAV
+
+  - name: Bayraktar Kızılelma
+    type: unmanned_combat_air_vehicle
+    status: prototype
+    description: Jet-powered stealth unmanned fighter aircraft
+
+sources:
+  - { name: "Baykar official site", url: "https://www.baykartech.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

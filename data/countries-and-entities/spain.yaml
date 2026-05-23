@@ -1,0 +1,60 @@
+name: Spain
+code: ES
+region: Europe
+
+producers:
+  - name: Navantia
+    type: naval_defense
+    products:
+      - F-100 class frigates
+      - S-80 Plus submarines
+      - Juan Carlos I amphibious assault ship
+      - Aegis combat system integration
+    revenue: 1.3B
+    revenue_year: 2023
+    employees: 5500
+
+  - name: Indra
+    type: defense_electronics
+    products:
+      - Air defense radar systems
+      - Electronic warfare systems
+      - C4ISTAR systems
+      - Simulation and training systems
+    revenue: 3.8B
+    revenue_year: 2023
+    employees: 20000
+
+  - name: Airbus Defence and Space (Spain)
+    type: aerospace
+    products:
+      - C-295 transport aircraft (manufactured in Seville)
+      - A400M wing manufacturing
+      - Eurofighter Typhoon component manufacturing
+      - Satellite systems
+    employees: 8000
+
+  - name: Escribano Mechanical & Engineering
+    type: defense_systems
+    products:
+      - Guardian remote weapon stations
+      - Sentinel naval weapon systems
+      - Drone defense systems
+    revenue: 0.2B
+    revenue_year: 2023
+
+top_export_destinations:
+  - country: Australia
+    notes: Navantia-designed frigates, landing ships
+  - country: Norway
+    notes: F-100 frigate design (Nansen-class)
+  - country: Saudi Arabia
+    notes: Avantia combat systems, refurbishment
+  - country: Turkey
+    notes: Patrol vessels, radar systems
+  - country: Colombia
+    notes: PES (Patrullera de Estaleiro) vessels
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "Indra Annual Report", url: "https://www.indracompany.com/en/investors" }

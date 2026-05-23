@@ -1,0 +1,70 @@
+name: Embraer Defense & Security
+country: Brazil
+type: aerospace
+founded: 1969
+
+key_programs:
+  - name: KC-390 Millennium
+    type: transport_aircraft
+    status: active_production
+    description: Medium-sized twin-engine jet military transport aircraft
+    export_clients:
+      - Portugal
+      - Hungary
+      - Netherlands
+
+  - name: A-29 Super Tucano
+    type: light_attack_aircraft
+    status: active_production
+    description: Turboprop light attack and advanced trainer
+    export_clients:
+      - United States
+      - Colombia
+      - Philippines
+      - Afghanistan
+      - Indonesia
+
+  - name: E-99 AEW&C
+    type: airborne_early_warning
+    status: operational
+    description: EMB-145-based airborne early warning and control aircraft
+
+  - name: P-99 Maritime Patrol
+    type: maritime_patrol
+    status: operational
+    description: EMB-145-based maritime patrol and anti-submarine warfare aircraft
+
+  - name: SABER M60 (M2 radar)
+    type: radar
+    status: operational
+    description: Multi-mode AESA radar for fighter upgrade programs
+
+suppliers:
+  - name: AEL Sistemas
+    country: Brazil
+    supplies: Avionics, electronic warfare systems
+    relationship: tier_1
+
+  - name: IAE (Instituto de Aeronáutica e Espaço)
+    country: Brazil
+    supplies: Aerodynamics research, wind tunnel testing
+    relationship: research_partner
+
+  - name: Rockwell Collins (RTX)
+    country: United States
+    supplies: Avionics (Pro Line Fusion for KC-390)
+    relationship: supplier
+
+  - name: International Aero Engines (IAE)
+    country: multinational
+    supplies: V2500 engines (KC-390)
+    relationship: supplier
+
+  - name: Pratt & Whitney Canada
+    country: Canada
+    supplies: PT6A engines (A-29 Super Tucano)
+    relationship: supplier
+
+sources:
+  - { name: "Embraer Annual Report 2023", url: "https://www.embraer.com/institutional/investors" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

@@ -1,0 +1,55 @@
+name: Indonesia
+code: ID
+region: Asia-Pacific
+
+producers:
+  - name: PT Dirgantara Indonesia (PTDI)
+    type: state_owned
+    products:
+      - CN-235 transport aircraft (with Airbus)
+      - NC-212 transport aircraft
+      - N-219 light transport
+      - Helicopter manufacturing (NAS-332)
+    revenue: 0.3B
+    revenue_year: 2023
+    employees: 4500
+
+  - name: PT PAL Indonesia
+    type: naval_defense
+    products:
+      - Nagapasa-class submarines (with South Korea)
+      - Bung Tomo-class corvettes
+      - Landing platform dock ships
+      - Fast missile boats
+    employees: 4000
+
+  - name: PT Pindad
+    type: land_systems
+    products:
+      - Pindad Panser (Anoa) APC
+      - Harimau medium tank (with Turkey)
+      - SS-1 and SS-2 assault rifles
+      - Mortar systems
+    employees: 3500
+
+  - name: PT Len Industri
+    type: defense_electronics
+    products:
+      - Naval combat management systems
+      - Air defense radars (with Saab)
+      - C4ISR systems
+      - Tactical communication systems
+
+top_import_sources:
+  - country: South Korea
+    notes: Nagapasa submarines, KF-21 fighter cooperation, T-50 trainers
+  - country: United States
+    notes: F-16 fighters, Apache helicopters (pending)
+  - country: France
+    notes: Rafale fighters (ordered 42), Scorpene submarines
+  - country: Turkey
+    notes: Harimau tank, Bayraktar UAVs, assault boats
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "PTDI official site", url: "https://www.dirgantara-indonesia.com" }

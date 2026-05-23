@@ -1,0 +1,33 @@
+name: ASELSAN
+country: Turkey
+type: defense_electronics
+
+key_programs:
+  - name: Electronic warfare systems
+    type: electronic_warfare
+    status: active_production
+    description: Integrated EW suites for aircraft, helicopters, and naval platforms
+
+  - name: Radar systems
+    type: radar
+    status: active_production
+    description: Fire control radars, AESA radars, and air defense radars
+
+  - name: Communication systems
+    type: communication
+    status: active_production
+    description: Secure tactical communications, data links, and SATCOM systems
+
+  - name: Electro-optical systems
+    type: optronics
+    status: active_production
+    description: ASELFLIR targeting pods, thermal cameras, and sight systems
+
+  - name: Air defense systems (Korkut, Hisar)
+    type: air_defense
+    status: active_production
+    description: Korkut self-propelled air defense, Hisar short/medium-range SAM
+
+sources:
+  - { name: "ASELSAN Annual Report", url: "https://www.aselsan.com.tr/en/investors" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

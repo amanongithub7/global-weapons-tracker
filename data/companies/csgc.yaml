@@ -1,0 +1,22 @@
+name: China South Industries Group (CSGC)
+country: China
+type: diversified_defense
+
+key_programs:
+  - name: Type 11 assault rifle
+    type: small_arms
+    status: active_production
+    description: Modern assault rifle for Chinese military
+
+  - name: Armored vehicles
+    type: armored_vehicle
+    status: active_production
+    description: Family of light armored vehicles and infantry fighting vehicles
+
+  - name: Mortar systems
+    type: artillery
+    status: active_production
+    description: Towed and self-propelled mortar systems
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

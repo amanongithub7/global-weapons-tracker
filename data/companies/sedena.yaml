@@ -1,0 +1,28 @@
+name: Secretaría de la Defensa Nacional (SEDENA)
+country: Mexico
+type: government_agency
+
+key_programs:
+  - name: FX-05 Xiuhcoatl assault rifle
+    type: small_arms
+    status: active_production
+    description: Indigenous 5.56mm assault rifle in service with Mexican armed forces
+
+  - name: DN-XI (Balam) armored vehicle
+    type: armored_vehicle
+    status: active_production
+    description: Indigenous light armored vehicle for reconnaissance and security
+
+  - name: Artillery systems
+    type: artillery
+    status: active_production
+    description: Towed and self-propelled artillery systems
+
+  - name: Ammunition production
+    type: munitions
+    status: active_production
+    description: Military small arms and artillery ammunition manufacturing
+
+sources:
+  - { name: "SEDENA official site", url: "https://www.gob.mx/sedena" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

@@ -1,0 +1,33 @@
+name: Pakistan Aeronautical Complex (PAC)
+country: Pakistan
+type: state_owned
+
+key_programs:
+  - name: JF-17 Thunder fighter
+    type: fighter_aircraft
+    status: active_production
+    description: Lightweight multirole fighter (co-developed with CAC/China)
+    export_clients:
+      - Myanmar
+      - Nigeria
+      - Iraq
+      - Azerbaijan
+
+  - name: MFI-17 Mushshak trainer
+    type: trainer_aircraft
+    status: active_production
+    description: Primary trainer aircraft (exported to multiple countries)
+
+  - name: Mirage III/V upgrade programs
+    type: aerospace_services
+    status: operational
+    description: Avionics and structural upgrade of legacy Mirage fleet
+
+  - name: K-8 Karakoram trainer
+    type: trainer_aircraft
+    status: licensed_production
+    description: Licensed production of Hongdu K-8 jet trainer
+
+sources:
+  - { name: "PAC official site", url: "https://www.pac.org.pk" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

@@ -1,0 +1,44 @@
+name: General Dynamics Land Systems - Canada
+country: Canada
+type: land_systems
+founded: 1977
+
+key_programs:
+  - name: LAV 6.0
+    type: armored_vehicle
+    status: active_production
+    description: Light Armoured Vehicle 6.0, 8x8 wheeled armored fighting vehicle
+    export_clients:
+      - Saudi Arabia
+      - Australia
+      - New Zealand
+
+  - name: TAPV
+    type: armored_vehicle
+    status: active_production
+    description: Tactical Armoured Patrol Vehicle for Canadian Army
+
+  - name: Coyote reconnaissance vehicle
+    type: armored_vehicle
+    status: operational
+    description: Wheeled reconnaissance and surveillance vehicle (upgrade program)
+
+suppliers:
+  - name: MTU Friedrichshafen (Rolls-Royce)
+    country: Germany
+    supplies: Diesel engines for LAV 6.0
+    relationship: supplier
+
+  - name: Allison Transmission
+    country: United States
+    supplies: Automatic transmissions for LAV 6.0
+    relationship: supplier
+
+  - name: Rafael Advanced Defense Systems
+    country: Israel
+    supplies: Remote weapon stations, protection systems
+    relationship: supplier
+
+sources:
+  - { name: "General Dynamics Land Systems", url: "https://www.gdls.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

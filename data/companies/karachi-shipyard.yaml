@@ -1,0 +1,23 @@
+name: Karachi Shipyard & Engineering Works
+country: Pakistan
+type: state_owned
+
+key_programs:
+  - name: Agosta 90B submarine maintenance
+    type: submarine
+    status: operational
+    description: In-service support and mid-life upgrade for Agosta 90B submarines
+
+  - name: Azmat-class missile boats
+    type: naval_vessel
+    status: active_production
+    description: Fast attack craft armed with anti-ship missiles
+
+  - name: PN MILGEM corvettes
+    type: naval_vessel
+    status: active_production
+    description: Corvette construction program in collaboration with Turkey (STM)
+
+sources:
+  - { name: "Karachi Shipyard official site", url: "https://www.karachishipyard.com.pk" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

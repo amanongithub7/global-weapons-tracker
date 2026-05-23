@@ -1,0 +1,56 @@
+name: South Africa
+code: ZA
+region: Africa
+
+producers:
+  - name: Denel
+    type: state_owned
+    products:
+      - Rooivalk attack helicopter
+      - G6 howitzer
+      - Umkhonto surface-to-air missile
+      - Hoefyster infantry fighting vehicle
+    revenue: 0.3B
+    revenue_year: 2023
+    employees: 3800
+
+  - name: Paramount Group
+    type: private
+    products:
+      - Mbombe infantry fighting vehicle
+      - Matador armored vehicle
+      - Maverick patrol vehicle
+      - Stealth aircraft design (Advanced Technology)
+    employees: 2000
+
+  - name: Rheinmetall Denel Munition
+    type: munitions
+    products:
+      - Artillery shells and propellants
+      - Mortar systems
+      - Tank ammunition
+    employees: 1500
+
+  - name: Saab South Africa (formerly Grintek)
+    type: defense_electronics
+    products:
+      - Electronic warfare systems
+      - Communication systems
+      - Radar systems
+    employees: 600
+
+top_export_destinations:
+  - country: United Arab Emirates
+    notes: Paramount Mbombe vehicles
+  - country: India
+    notes: Denel ammunition, artillery systems
+  - country: Saudi Arabia
+    notes: Artillery systems, armored vehicles
+  - country: Algeria
+    notes: G6 howitzers (past)
+  - country: Brazil
+    notes: Armored vehicle technology
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "Denel Annual Report", url: "https://www.denel.co.za/investors" }

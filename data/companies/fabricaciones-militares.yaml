@@ -1,0 +1,23 @@
+name: Fabricaciones Militares (FM)
+country: Argentina
+type: state_owned
+founded: 1941
+
+key_programs:
+  - name: Small arms production
+    type: small_arms
+    status: active
+    description: Production of military small arms, including FAL derivative rifles
+
+  - name: Artillery ammunition
+    type: munitions
+    status: active_production
+    description: 155mm and 105mm artillery shell production
+
+  - name: Explosives and propellants
+    type: munitions
+    status: active_production
+    description: Military-grade explosives and propellant manufacturing
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

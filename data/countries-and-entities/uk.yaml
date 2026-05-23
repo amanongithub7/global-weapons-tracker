@@ -1,0 +1,70 @@
+name: United Kingdom
+code: UK
+region: Europe
+
+producers:
+  - name: BAE Systems
+    type: prime_contractor
+    products:
+      - Eurofighter Typhoon
+      - F-35 Lightning II (component manufacturing)
+      - Type 45 destroyers
+      - Queen Elizabeth-class aircraft carriers
+      - Astute-class submarines
+    revenue: 23.1B
+    revenue_year: 2023
+    employees: 97400
+
+  - name: MBDA UK
+    type: missile_systems
+    products:
+      - Brimstone anti-armor missile
+      - Storm Shadow cruise missile
+      - Meteor beyond-visual-range AAM
+      - Sea Viper air defense system
+    employees: 4500
+
+  - name: Rolls-Royce (Defence)
+    type: aerospace_engines
+    products:
+      - EJ200 engine (Eurofighter)
+      - MT30 marine turbine
+      - Adour engine (Hawk, T-45)
+    revenue: 4.5B
+    revenue_year: 2023
+    employees: 12000
+
+  - name: Babcock International
+    type: defense_services
+    products:
+      - Astute-class submarine support
+      - Type 31 frigate program
+      - Warship design and support
+    revenue: 4.4B
+    revenue_year: 2023
+    employees: 35000
+
+  - name: Thales UK
+    type: defense_electronics
+    products:
+      - Lightweight multirole missile (LMM)
+      - Electronic warfare systems
+      - Sonar and sensor systems
+    revenue: 1.7B
+    revenue_year: 2023
+
+top_export_destinations:
+  - country: Saudi Arabia
+    notes: Eurofighter Typhoon, Brimstone missiles, Hawk trainers
+  - country: Qatar
+    notes: Eurofighter Typhoon, Hawk trainers
+  - country: United States
+    notes: F-35 component manufacturing, aircraft carrier design
+  - country: India
+    notes: Hawk trainers, BAE howitzers
+  - country: Oman
+    notes: Typhoon fighters, coastal defense systems
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "BAE Systems Annual Report 2023", url: "https://www.baesystems.com/en/investors" }

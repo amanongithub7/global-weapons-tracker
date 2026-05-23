@@ -1,0 +1,33 @@
+name: KNDS (KMW+Nexter)
+country: Germany/France
+type: defense_contractor
+
+key_programs:
+  - name: Leopard 2 A7/A8
+    type: main_battle_tank
+    status: active_production
+    description: Latest generation of the Leopard 2 main battle tank
+
+  - name: PzH 2000
+    type: artillery
+    status: active_production
+    description: 155mm tracked self-propelled howitzer
+
+  - name: Boxer armored vehicle
+    type: armored_vehicle
+    status: active_production
+    description: 8x8 multirole armored fighting vehicle family
+    export_clients:
+      - Australia
+      - Lithuania
+      - Netherlands
+      - United Kingdom
+
+  - name: Dingo protected vehicle
+    type: armored_vehicle
+    status: active_production
+    description: Mine-protected wheeled armored vehicle
+
+sources:
+  - { name: "KNDS official site", url: "https://www.knds.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

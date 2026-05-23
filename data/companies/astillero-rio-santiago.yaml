@@ -1,0 +1,18 @@
+name: Astillero Río Santiago
+country: Argentina
+type: state_owned
+founded: 1953
+
+key_programs:
+  - name: Patrol vessel construction
+    type: naval_vessel
+    status: active_production
+    description: Construction of offshore patrol vessels for Argentine Navy
+
+  - name: Naval repair and maintenance
+    type: naval_services
+    status: operational
+    description: Drydock and repair services for naval and commercial vessels
+
+sources:
+  - { name: "Astillero Río Santiago official site", url: "https://www.ars.gob.ar" }

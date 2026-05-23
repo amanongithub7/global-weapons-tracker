@@ -1,0 +1,38 @@
+name: MBDA UK
+country: United Kingdom
+type: missile_systems
+
+key_programs:
+  - name: Brimstone anti-armor missile
+    type: missile
+    status: active_production
+    description: Semi-active laser-guided air-to-ground anti-armor missile (also ground-launched)
+
+  - name: Storm Shadow cruise missile
+    type: cruise_missile
+    status: active_production
+    description: Long-range stealth air-launched cruise missile (range 560km)
+    export_clients:
+      - Saudi Arabia
+      - Egypt
+      - Greece
+      - Italy
+
+  - name: Meteor beyond-visual-range AAM
+    type: missile
+    status: active_production
+    description: Ramjet-powered beyond-visual-range air-to-air missile
+
+  - name: Sea Viper air defense system
+    type: air_defense
+    status: operational
+    description: Naval air defense system using Aster missiles on Type 45 destroyers
+
+  - name: Sea Ceptor / CAMM
+    type: missile
+    status: active_production
+    description: Vertical launch naval point defense missile replacing Sea Wolf
+
+sources:
+  - { name: "MBDA official site", url: "https://www.mbda-systems.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

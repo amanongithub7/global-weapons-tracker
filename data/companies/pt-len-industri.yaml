@@ -1,0 +1,28 @@
+name: PT Len Industri
+country: Indonesia
+type: defense_electronics
+
+key_programs:
+  - name: Naval combat management systems
+    type: c4isr
+    status: active_production
+    description: Integrated combat management systems for Indonesian Navy vessels
+
+  - name: Air defense radars
+    type: radar
+    status: active_production
+    description: Ground-based air surveillance radars (co-developed with SAAB)
+
+  - name: C4ISR systems
+    type: c4isr
+    status: active_production
+    description: Integrated communication, command, and surveillance systems
+
+  - name: Tactical communication systems
+    type: communication
+    status: active_production
+    description: Secure tactical radio and data-link systems
+
+sources:
+  - { name: "PT Len Industri official site", url: "https://www.len.co.id" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

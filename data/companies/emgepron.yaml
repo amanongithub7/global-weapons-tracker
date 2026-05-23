@@ -1,0 +1,40 @@
+name: Marine Group (EMGEPRON)
+country: Brazil
+type: naval_defense
+founded: 1982
+
+key_programs:
+  - name: Tamandaré-class frigates
+    type: naval_vessel
+    status: active_production
+    description: Four modern frigates for Brazilian Navy (Águas Azuis program, with TKMS)
+
+  - name: PROSUB submarine program
+    type: submarine
+    status: active_production
+    description: Conventional submarine construction program with French technology transfer (Scorpène class)
+
+  - name: Naval systems integration
+    type: naval_services
+    status: operational
+    description: Combat system integration and naval engineering services
+
+suppliers:
+  - name: ThyssenKrupp Marine Systems
+    country: Germany
+    supplies: Frigate design and technology transfer (Tamandaré-class)
+    relationship: technology_partner
+
+  - name: Naval Group
+    country: France
+    supplies: Scorpène submarine design and technology transfer (PROSUB)
+    relationship: technology_partner
+
+  - name: Embraer Defense
+    country: Brazil
+    supplies: Radar and sensor integration
+    relationship: supplier
+
+sources:
+  - { name: "EMGEPRON official site", url: "https://www.marinha.mil.br/emgepron" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

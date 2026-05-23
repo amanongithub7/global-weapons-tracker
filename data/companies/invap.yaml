@@ -1,0 +1,30 @@
+name: INVAP
+country: Argentina
+type: state_owned
+founded: 1976
+
+key_programs:
+  - name: Radar systems
+    type: radar
+    status: active_production
+    description: Primary surveillance radars, weather radars, and military-grade sensors
+
+  - name: Satellite technology
+    type: satellite
+    status: operational
+    description: Design and construction of Earth observation and communication satellites (ARSAT, SAOCOM series)
+
+  - name: Nuclear reactor design
+    type: dual_use
+    status: operational
+    description: Research and power nuclear reactor design and construction (exported to multiple countries)
+
+suppliers:
+  - name: CONAE (Comisión Nacional de Actividades Espaciales)
+    country: Argentina
+    supplies: Satellite mission requirements, funding
+    relationship: partner
+
+sources:
+  - { name: "INVAP official site", url: "https://www.invap.com.ar" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

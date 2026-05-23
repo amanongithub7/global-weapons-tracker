@@ -1,0 +1,23 @@
+name: Abu Dhabi Ship Building
+country: United Arab Emirates
+type: naval_defense
+
+key_programs:
+  - name: Baynunah-class corvettes
+    type: naval_vessel
+    status: operational
+    description: Six multi-mission corvettes for UAE Navy
+
+  - name: Falaj 2-class patrol vessels
+    type: naval_vessel
+    status: active_production
+    description: Fast patrol vessels with anti-ship missiles
+
+  - name: Ship repair and maintenance
+    type: naval_services
+    status: operational
+    description: Drydock and maintenance services for naval and commercial vessels
+
+sources:
+  - { name: "ADSB official site", url: "https://www.adsb.ae" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

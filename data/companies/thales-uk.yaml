@@ -1,0 +1,23 @@
+name: Thales UK
+country: United Kingdom (French-owned)
+type: defense_electronics
+
+key_programs:
+  - name: Lightweight multirole missile (LMM)
+    type: missile
+    status: active_production
+    description: Lightweight multi-role missile (Falcon, Martlet) for air, land, and naval platforms
+
+  - name: Electronic warfare systems
+    type: electronic_warfare
+    status: active_production
+    description: Self-protection systems, radar warning receivers, and countermeasure systems
+
+  - name: Sonar and sensor systems
+    type: naval_systems
+    status: active_production
+    description: Hull-mounted and towed array sonars, mine-hunting systems for Royal Navy
+
+sources:
+  - { name: "Thales Group official site", url: "https://www.thalesgroup.com/en" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

@@ -1,0 +1,40 @@
+name: Naval Group
+country: France
+type: naval_defense
+
+key_programs:
+  - name: Scorpène-class submarines
+    type: submarine
+    status: active_production
+    description: Conventional attack submarine (exported to Chile, Malaysia, India, Brazil)
+    export_clients:
+      - India
+      - Brazil
+      - Chile
+      - Malaysia
+
+  - name: Suffren-class (Barracuda) nuclear submarines
+    type: submarine
+    status: active_production
+    description: Nuclear-powered attack submarine for French Navy (6 planned)
+
+  - name: FREMM frigates
+    type: naval_vessel
+    status: active_production
+    description: Franco-Italian multi-mission frigate program
+    export_clients:
+      - Egypt
+      - Morocco
+
+  - name: Gowind-class corvettes
+    type: naval_vessel
+    status: active_production
+    description: Compact multi-mission corvette (exported to Egypt, UAE, Malaysia)
+    export_clients:
+      - Egypt
+      - United Arab Emirates
+      - Malaysia
+
+sources:
+  - { name: "Naval Group official site", url: "https://www.naval-group.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

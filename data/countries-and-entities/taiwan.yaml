@@ -1,0 +1,48 @@
+name: Taiwan
+code: TW
+region: Asia-Pacific
+
+producers:
+  - name: Aerospace Industrial Development Corporation (AIDC)
+    type: state_owned
+    products:
+      - F-CK-1 Ching-kuo fighter
+      - AT-3/T-5 Brave Eagle trainer
+      - Indigenous Defense Fighter upgrades
+      - UAV development
+    revenue: 1.0B
+    revenue_year: 2023
+    employees: 5500
+
+  - name: CSBC Corporation
+    type: naval_defense
+    products:
+      - Indigenous submarine program
+      - Tuo Chiang-class corvettes
+      - Offshore patrol vessels
+
+  - name: National Chung-Shan Institute (NCSIST)
+    type: government_agency
+    products:
+      - Hsiung Feng anti-ship missiles
+      - Tien Kung (Sky Bow) air defense systems
+      - Tien Chien air-to-air missiles
+      - Yun Feng cruise missile
+    employees: 10000
+    notes: Taiwan's primary defense R&D agency
+
+  - name: Thunder Tiger (military division)
+    type: aerospace
+    products:
+      - Target drones
+      - UAV sub-systems
+
+top_import_sources:
+  - country: United States
+    notes: F-16V fighters, P-3 Orion, M1A2T tanks, HIMARS, Harpoon missiles
+  - country: France
+    notes: Lafayette-class frigates, Mirage 2000 fighters (legacy)
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "AIDC official site", url: "https://www.aidc.com.tw" }

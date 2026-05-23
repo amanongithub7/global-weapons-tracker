@@ -1,0 +1,38 @@
+name: Boeing Defense
+country: United States
+type: prime_contractor
+
+key_programs:
+  - name: F-15EX Eagle II
+    type: fighter_aircraft
+    status: active_production
+    description: 4.5-generation multirole fighter based on F-15SA
+    export_clients:
+      - Saudi Arabia
+      - Qatar
+
+  - name: F/A-18 Super Hornet
+    type: fighter_aircraft
+    status: active_production
+    description: Carrier-based multirole fighter (also EA-18G Growler variant)
+
+  - name: CH-47 Chinook helicopters
+    type: helicopter
+    status: active_production
+    description: Heavy-lift tandem rotor transport helicopter (CH-47F Block II)
+
+  - name: P-8 Poseidon maritime patrol
+    type: maritime_patrol
+    status: active_production
+    description: Maritime patrol and anti-submarine warfare aircraft (737 derivative)
+    export_clients:
+      - India
+      - Australia
+      - United Kingdom
+      - Norway
+      - Germany
+      - New Zealand
+
+sources:
+  - { name: "Boeing Annual Report", url: "https://www.boeing.com/investors" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

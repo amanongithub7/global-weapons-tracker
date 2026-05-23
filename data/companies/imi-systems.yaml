@@ -1,0 +1,24 @@
+name: IMI Systems (acquired by Elbit)
+country: Israel
+type: defense_contractor
+
+key_programs:
+  - name: Small arms and ammunition
+    type: small_arms
+    status: active_production
+    description: Military small arms, including Negev machine gun, Tavor assault rifle, and Galil variants
+
+  - name: Artillery systems
+    type: artillery
+    status: active_production
+    description: Self-propelled howitzers (ATMOS), truck-mounted artillery, and mortar systems
+
+  - name: Armored vehicle upgrades
+    type: land_systems
+    status: operational
+    description: Upgrade and modernization packages for legacy armored vehicles
+
+notes: Acquired by Elbit Systems in 2018
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

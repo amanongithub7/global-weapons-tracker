@@ -1,0 +1,27 @@
+name: National Chung-Shan Institute (NCSIST)
+country: Taiwan
+type: government_agency
+
+key_programs:
+  - name: Hsiung Feng anti-ship missiles
+    type: missile
+    status: active_production
+    description: Hsiung Feng II (subsonic) and Hsiung Feng III (supersonic) anti-ship cruise missiles
+
+  - name: Tien Kung (Sky Bow) air defense systems
+    type: air_defense
+    status: active_production
+    description: Tien Kung I, II, III medium-to-long-range surface-to-air missile systems
+
+  - name: Tien Chien air-to-air missiles
+    type: missile
+    status: active_production
+    description: TC-1 short-range and TC-2 beyond-visual-range air-to-air missiles
+
+  - name: Yun Feng cruise missile
+    type: cruise_missile
+    status: operational
+    description: Land attack cruise missile with extended range
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

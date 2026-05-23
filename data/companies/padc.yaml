@@ -1,0 +1,17 @@
+name: Philippine Aerospace Development Corporation (PADC)
+country: Philippines
+type: state_owned
+
+key_programs:
+  - name: Aircraft MRO services
+    type: aerospace_services
+    status: operational
+    description: Maintenance, repair and overhaul of military aircraft
+
+  - name: UAV development
+    type: unmanned_aerial_vehicle
+    status: prototype
+    description: Indigenous unmanned aerial vehicle development and prototyping
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

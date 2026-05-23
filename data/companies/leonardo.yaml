@@ -1,0 +1,60 @@
+name: Leonardo
+country: Italy
+type: prime_contractor
+founded: 1948
+
+key_programs:
+  - name: Eurofighter Typhoon
+    type: fighter_aircraft
+    status: active_production
+    description: 4th-generation multirole fighter (joint with BAE Systems, Airbus)
+
+  - name: M-346 Master
+    type: trainer_aircraft
+    status: active_production
+    description: Advanced jet trainer / light attack aircraft
+
+  - name: AW149 / AW101
+    type: helicopter
+    status: active_production
+    description: Multirole military helicopters
+
+  - name: C-27J Spartan
+    type: transport_aircraft
+    status: active_production
+    description: Tactical transport aircraft
+
+  - name: AESA radar systems
+    type: radar
+    status: active_production
+    description: Active electronically scanned array radars for fighter aircraft
+
+suppliers:
+  - name: Avio Aero (GE Aerospace)
+    country: Italy
+    supplies: FJ44 engines (M-346), engine components
+    relationship: tier_1
+
+  - name: Hensoldt
+    country: Germany
+    supplies: Sensor systems, optronics
+    relationship: supplier
+
+  - name: Thales
+    country: France
+    supplies: Avionics, communication systems
+    relationship: supplier
+
+  - name: MBDA Italia
+    country: Italy
+    supplies: Missile system integration (Aster, CAMM-ER)
+    relationship: integration_partner
+
+  - name: Vitrociset
+    country: Italy
+    supplies: Logistics support, training systems
+    relationship: supplier
+
+sources:
+  - { name: "Leonardo Annual Report 2023", url: "https://www.leonardo.com/en/investors" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }

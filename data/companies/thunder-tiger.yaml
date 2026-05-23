@@ -1,0 +1,17 @@
+name: Thunder Tiger (military division)
+country: Taiwan
+type: aerospace
+
+key_programs:
+  - name: Target drones
+    type: unmanned_aerial_vehicle
+    status: active_production
+    description: Aerial target drones for military training and weapons testing
+
+  - name: UAV sub-systems
+    type: aerospace
+    status: active_production
+    description: UAV components and sub-system manufacturing
+
+sources:
+  - { name: "Thunder Tiger official site", url: "https://www.thundertiger.com" }

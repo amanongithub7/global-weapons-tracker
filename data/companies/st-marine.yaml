@@ -1,0 +1,23 @@
+name: ST Marine (ST Engineering naval)
+country: Singapore
+type: naval_defense
+
+key_programs:
+  - name: Independence-class littoral mission vessels
+    type: naval_vessel
+    status: operational
+    description: Eight multi-role littoral mission vessels for Republic of Singapore Navy
+
+  - name: Formidable-class frigates
+    type: naval_vessel
+    status: operational
+    description: Six stealth multi-role frigates (derived from La Fayette design)
+
+  - name: Submarine support and modernization
+    type: naval_services
+    status: operational
+    description: Submarine in-service support, refit, and modernization programs
+
+sources:
+  - { name: "ST Engineering official site", url: "https://www.stengg.com" }
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
