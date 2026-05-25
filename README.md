@@ -8,40 +8,48 @@ producers, supply chains, and trade flows.
 ```bash
 make install
 source .venv/bin/activate
-python weapons_tracker.py --help
+gwt --help
+# OR
+global-weapons-tracker --help
 ```
 
 ## Usage 🧑‍💻
 
+> [!NOTE]
+>
+> To access, you can use either `global-weapons-tracker` or `gwt`. `gwt` is
+> configured by some zsh plugins and other programs to be an alias for git
+> worktree.
+
 ### Look up a country or entity's weapons producers
 
 ```bash
-python weapons_tracker.py entity usa
-python weapons_tracker.py entity russia
-python weapons_tracker.py entity india
+gwt entity usa
+gwt entity russia
+gwt entity india
 ```
 
 ### Look up a company and its supply chain
 
 ```bash
-python weapons_tracker.py company "Lockheed Martin"
-python weapons_tracker.py company "Rheinmetall"
-python weapons_tracker.py company "Hindustan Aeronautics"
+gwt company "Lockheed Martin"
+gwt company "Rheinmetall"
+gwt company "Hindustan Aeronautics"
 ```
 
 ### Query weapons trade flows
 
 ```bash
-python weapons_tracker.py trade --from "usa"
-python weapons_tracker.py trade --to "india"
-python weapons_tracker.py trade --from "russia" --to "china"
+gwt trade --from "usa"
+gwt trade --to "india"
+gwt trade --from "russia" --to "china"
 ```
 
 ### List available data
 
 ```bash
-python weapons_tracker.py list entities
-python weapons_tracker.py list companies
+gwt list entities
+gwt list companies
 ```
 
 ## Data Format 📊

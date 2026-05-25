@@ -3,11 +3,7 @@ import csv
 import sys
 from pathlib import Path
 
-try:
-    import yaml
-except ImportError:
-    print("Required: PyYAML. Install with: pip install pyyaml")
-    sys.exit(1)
+import yaml
 
 
 DATA_DIR = Path(__file__).parent / "data"

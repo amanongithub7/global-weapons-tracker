@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "global-weapons-tracker"
+version = "0.1.0"
+description = "Research defense industry data: countries, their weapons producers, supply chains, and trade flows"
+requires-python = ">=3.8"
+dependencies = [
+    "PyYAML>=6.0",
+]
+
+[project.scripts]
+global-weapons-tracker = "global_weapons_tracker:main"
+gwt = "global_weapons_tracker:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+global_weapons_tracker = ["data/**"]
