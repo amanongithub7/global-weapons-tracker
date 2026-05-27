@@ -9,6 +9,10 @@ environmental toll of warfare.
 
 ## Quick Start 📝
 
+First, clone this repository onto your computer of choice. Then, run the
+following commands from within the `global-weapons-tracker/` directory. After
+this, global-weapons-tracker will be installed on your system as a CLI tool.
+
 ```bash
 make install
 source .venv/bin/activate
