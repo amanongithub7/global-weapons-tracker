@@ -1,9 +1,25 @@
+"""Argument parser and top-level ``main()`` entry point.
+
+Wires argparse subcommands to their corresponding display functions
+in :mod:`~global_weapons_tracker.display`.
+"""
+
 import argparse
 
 from .display import cmd_country, cmd_company, cmd_trade, cmd_list
 
 
 def main():
+    """Parse CLI arguments and dispatch to the appropriate command handler.
+
+    Defines four subcommands:
+        - **entity** — look up a country or regional entity
+        - **company** — look up a company and its supply chain
+        - **trade** — query bilateral weapons trade flows
+        - **list** — list available entities or companies
+
+    If no subcommand is provided, prints the help text and returns.
+    """
     parser = argparse.ArgumentParser(
         description="Weapons Tracker - Research defense industry data"
     )

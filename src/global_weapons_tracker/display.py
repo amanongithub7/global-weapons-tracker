@@ -1,3 +1,10 @@
+"""CLI display (print) functions.
+
+Each ``cmd_*`` function corresponds to a CLI subcommand. They read
+data via :mod:`~global_weapons_tracker.data` and format it for
+terminal output.
+"""
+
 import csv
 import sys
 
@@ -14,6 +21,19 @@ from .data import (
 
 
 def cmd_trade(args):
+    """Query and display weapons trade flows filtered by origin / destination.
+
+    Parameters
+    ----------
+    args : argparse.Namespace
+        Must provide ``args.from_country`` and ``args.to_country``
+        (either may be ``None``).
+
+    Side effects
+    ------------
+    Prints a formatted table of matching trade rows and exits with
+    status 1 if the trade CSV is missing.
+    """
     if not TRADE_FILE.exists():
         print(f"Trade data not found at {TRADE_FILE}")
         sys.exit(1)
@@ -62,6 +82,19 @@ def cmd_trade(args):
 
 
 def cmd_list(args):
+    """List available entities or companies by reading YAML filenames.
+
+    Parameters
+    ----------
+    args : argparse.Namespace
+        ``args.list_type`` must be one of ``"entities"``, ``"companies"``,
+        or ``"trade"``.
+
+    Side effects
+    ------------
+    Prints a numbered list of entity/company names (or a stub message
+    for trade).
+    """
     if args.list_type == "entities":
         files = sorted(COUNTRIES_DIR.glob("*.yaml"))
         print(f"Available countries / regional entities ({len(files)}):")
@@ -80,6 +113,18 @@ def cmd_list(args):
 
 
 def cmd_country(args):
+    """Display entity / country details: producers, exports, imports, sources.
+
+    Parameters
+    ----------
+    args : argparse.Namespace
+        ``args.query`` is the entity name or code to look up.
+
+    Side effects
+    ------------
+    Prints a formatted report to stdout. Exits with status 1 if the
+    entity file cannot be found.
+    """
     path = find_country_file(args.query)
     if not path:
         print(f"Country not found: {args.query}")
@@ -139,6 +184,18 @@ def cmd_country(args):
 
 
 def cmd_company(args):
+    """Display company details: programs, subsidiaries, suppliers, sources.
+
+    Parameters
+    ----------
+    args : argparse.Namespace
+        ``args.query`` is the company name to look up.
+
+    Side effects
+    ------------
+    Prints a formatted report to stdout. Exits with status 1 if the
+    company file cannot be found.
+    """
     path = find_company_file(args.query)
     if not path:
         print(f"Company not found: {args.query}")
