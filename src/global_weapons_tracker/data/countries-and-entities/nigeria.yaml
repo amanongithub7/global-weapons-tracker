@@ -1,0 +1,92 @@
+name: Nigeria
+code: NG
+region: West Africa
+
+producers:
+  - name: Defence Industries Corporation of Nigeria (DICON)
+    type: state_owned
+    products:
+      - AK-47 assault rifles
+      - Submachine guns and machine guns
+      - 7.62mm and 9mm ammunition (30M rounds/year capacity)
+      - DG103 rifles (with D7G)
+      - Armored vehicle refurbishment
+      - Ezugwu MRAP vehicles
+    revenue: 0.5B
+    revenue_year: 2024
+    employees: 3000
+    notes: Founded 1964; Kaduna Ordnance Factory. DICON Act 2023 revitalized production. $1B India modernization deal signed 2023.
+
+  - name: Proforce Limited
+    type: private
+    products:
+      - Armored Personnel Carriers (APCs)
+      - Mine-Resistant Ambush Protected (MRAP) vehicles
+      - Armored SUVs and sedans
+      - Unmanned Aerial Vehicles (drones)
+      - Ballistic helmets and vests
+      - Infantry Combat Vehicles (ICVs)
+      - Armored boats and marine vessels
+    revenue: 0.2B
+    revenue_year: 2024
+    employees: 1000
+    notes: Founded 2008; total defence solutions provider. Partnered with IAI (satellites), Kalashnikov (rifles).
+
+  - name: D7G Limited (DICON-D7G)
+    type: private_joint_venture
+    products:
+      - DG103 rifles (AK-103 equivalent)
+      - 7.62x39mm ammunition (50M rounds/year planned)
+      - MRAP vehicles
+      - Tactical strike drones
+      - Anti-drone systems
+      - Naval ship building
+    revenue: 0.1B
+    revenue_year: 2024
+    employees: 500
+    notes: JV with DICON. Building Nigeria's first military jetty in Lagos (June 2026). Targeting 7,000 jobs.
+
+  - name: EPAIL Nigeria Limited
+    type: private
+    products:
+      - Reverse-engineered CSK-131 Mengshi armored vehicles
+      - Bulletproof vests and ballistic helmets
+      - Surveillance systems
+      - MRAP vehicles
+    employees: 300
+    notes: First ballistic manufacturer in Nigeria; partnered with DICON since 2018
+
+  - name: DICON-Gray Insignia (DGI)
+    type: joint_venture
+    products:
+      - Hawk Sniper Rifle (Nigerian-designed)
+      - Small and light weapon systems
+      - Tactical training infrastructure
+    employees: 200
+    notes: JV between DICON and Gray Insignia Nigeria; established 2025
+
+top_import_sources:
+  - country: China
+    notes: Wing Loong II drones, armored vehicles, small arms (44% of imports 2019-23)
+  - country: Brazil
+    notes: A-29 Super Tucano light attack aircraft, aircraft (11% of imports)
+  - country: Pakistan
+    notes: JF-17 Thunder fighter jets (11% of imports)
+  - country: Netherlands
+    notes: Naval systems, radar (8.7% of imports)
+  - country: Russia
+    notes: Mi-24/35 Hind helicopters, armored vehicles (7% of imports)
+  - country: Turkey
+    notes: T-129 ATAK attack helicopters ($270M), Bayraktar TB2 drones
+  - country: United States
+    notes: AH-1Z Viper helicopters ($997M approved 2022), MD 530F Cayuse Warrior Plus
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "DICON official site", url: "https://dicon.gov.ng/" }
+  - { name: "Proforce official site", url: "https://proforcedefence.com/" }
+  - { name: "Military Africa — DICON resumes arms production", url: "https://www.military.africa/2024/02/dicon-resumes-arms-production-after-billion-dollar-funding/" }
+  - { name: "Military Africa — DICON partners D7G to ramp up arms production", url: "https://www.military.africa/2025/05/dicon-partners-d7g-to-ramp-up-arms-production/" }
+  - { name: "Military Africa — EPAIL begins serial production of CSK-131 Mengshi", url: "https://www.military.africa/2024/04/epail-niger-begins-serial-production-of-dong-feng-csk-131-mengshi-armored-vehicle/" }
+  - { name: "Shephard Media — TAI delivers first Nigerian T-129 Atak helicopters", url: "https://www.shephardmedia.com/news/air-warfare/first-nigerian-t-129-atak-helicopters-delivered/" }
+  - { name: "ISPI — Trends in arms transfers to Sub-Saharan Africa", url: "https://www.ispionline.it/en/publication/the-complex-trends-and-patterns-in-arms-transfers-to-sub-saharan-africa-184850" }

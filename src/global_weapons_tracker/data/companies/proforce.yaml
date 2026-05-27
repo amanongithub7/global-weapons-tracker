@@ -1,0 +1,67 @@
+name: Proforce Limited
+country: Nigeria
+type: private
+founded: 2008
+
+key_programs:
+  - name: Armored Personnel Carriers (APCs)
+    type: armored_vehicle
+    status: active_production
+    description: Full range of APCs with STANAG 4569 ballistic protection
+    export_clients:
+      - United Nations
+      - African Union
+      - Chad
+      - Niger
+      - Rwanda
+
+  - name: MRAP Vehicles
+    type: armored_vehicle
+    status: active_production
+    description: Mine-Resistant Ambush Protected vehicles for military and peacekeeping operations
+
+  - name: Armored SUVs and Sedans
+    type: light_armored
+    status: active_production
+    description: Civilian and diplomatic armored vehicles
+
+  - name: Unmanned Aerial Vehicles
+    type: uav
+    status: active_production
+    description: Indigenous drone production for surveillance and reconnaissance
+
+  - name: Ballistic Helmets and Vests
+    type: personal_protection
+    status: active_production
+    description: NIJ-standard body armor and ballistic helmets
+
+  - name: Infantry Combat Vehicles (ICVs)
+    type: armored_vehicle
+    status: active_production
+    description: Tracked and wheeled infantry combat vehicles
+
+  - name: Armored Boats and Marine Vessels
+    type: naval
+    status: active_production
+    description: Armored patrol boats and marine security vessels
+
+suppliers:
+  - name: Israeli Aerospace Industries (IAI)
+    country: Israel
+    supplies: Satellite production technology
+    relationship: partner
+
+  - name: Kalashnikov Concern
+    country: Russia
+    supplies: Weapons production technology (100,000 weapons/year planned)
+    relationship: partner
+
+  - name: Defence Industries Corporation of Nigeria (DICON)
+    country: Nigeria
+    supplies: Regulatory framework, strategic partnership
+    relationship: partner
+
+sources:
+  - { name: "Proforce official site", url: "https://proforcedefence.com/" }
+  - { name: "Federal Ministry of Information — Minister Commends Proforce", url: "https://von.gov.ng/minister-commends-proforce-factorys-armoured-defence-products/" }
+  - { name: "Proforce — DICON Act Signals Era of Self-Reliance", url: "https://proforcedefence.com/2024/03/18/dicon-act-signals-era-of-self-reliance-proforce-leads-defence-innovation/" }

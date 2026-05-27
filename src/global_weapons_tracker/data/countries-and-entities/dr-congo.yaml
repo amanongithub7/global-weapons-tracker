@@ -1,0 +1,35 @@
+name: DR Congo
+code: CD
+region: Central Africa
+
+producers:
+  - name: Africaine d'Explosifs (AFRIDEX)
+    type: state_owned
+    products:
+      - Military explosives
+      - Small arms ammunition
+      - Small and large caliber weapons
+      - Hunting weapons
+      - Civilian mining explosives
+    employees: 1500
+    notes: Founded 1948; Likasi military-industrial complex under construction with Norinco (China) and MKE (Turkey)
+
+top_import_sources:
+  - country: China
+    notes: CH-4 attack drones, Norinco armored vehicles, military complex financing
+  - country: Turkey
+    notes: Katmerciler armored vehicles, MKE munitions partnership, Bayraktar TB2 drones
+  - country: United Arab Emirates
+    notes: IGG armored vehicles, MRAPs
+  - country: South Africa
+    notes: Milkor 380 drones
+  - country: Bulgaria
+    notes: Second-hand tanks, light weapons, ammunition
+  - country: Serbia
+    notes: Second-hand tanks, ammunition
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "Africa Intelligence — DRC military boosted by Turkish armoured vehicles", url: "https://www.africaintelligence.com/central-africa/2024/05/06/drc-military-boosted-by-turkish-armoured-vehicles,110223093-art" }
+  - { name: "Zoom Eco — Jean-Pierre Bemba lance les travaux du Complexe militaro-industriel", url: "https://zoom-eco.net/a-la-une/rdc-jean-pierre-bemba-lance-les-travaux-de-construction-du-complexe-militaro-industriel-a-likasi/" }
+  - { name: "ACP — AFRIDEX ambitions to become major African arms industry", url: "https://acp.cd/nation/nous-aspirons-a-ce-que-lafridex-devienne-une-grande-industrie-darmement-en-afrique-vice-premier-ministre-de-la-defense/" }

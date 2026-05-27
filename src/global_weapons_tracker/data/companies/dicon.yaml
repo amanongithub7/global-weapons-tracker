@@ -1,0 +1,63 @@
+name: Defence Industries Corporation of Nigeria (DICON)
+country: Nigeria
+type: state_owned
+founded: 1964
+
+key_programs:
+  - name: Kaduna Ordnance Factory
+    type: small_arms
+    status: active_production
+    description: Produces AK-47 rifles, submachine guns, 7.62mm and 9mm ammunition. 30 million rounds/year capacity. Resumed production 2024 after $1B modernization deal with India.
+
+  - name: DICON-D7G Joint Venture
+    type: small_arms
+    status: active_production
+    description: DG103 rifles (AK-103 equivalent), 7.62x39mm ammunition (50M rounds/year planned), MRAP vehicles, tactical drones
+
+  - name: Ezugwu MRAP
+    type: armored_vehicle
+    status: active_production
+    description: Indigenously developed mine-resistant ambush-protected vehicle for Nigerian Army
+
+  - name: Special Vehicle Plant
+    type: vehicle_refurbishment
+    status: active_production
+    description: Refurbishment and upgrade of armored vehicles for Nigerian military
+
+  - name: DICON-Gray Insignia (DGI)
+    type: small_arms
+    status: active_production
+    description: Hawk Sniper Rifle (Nigerian-designed and manufactured), small and light weapon systems
+
+suppliers:
+  - name: D7G Limited
+    country: Nigeria
+    supplies: Private sector partner for arms and ammunition production
+    relationship: joint_venture
+
+  - name: Proforce Limited
+    country: Nigeria
+    supplies: Armored vehicles, defence equipment collaboration
+    relationship: partner
+
+  - name: Buckler Land Systems
+    country: Nigeria
+    supplies: Military hardware production
+    relationship: partner
+
+  - name: Gray Insignia Nigeria
+    country: Nigeria
+    supplies: Small arms design and manufacturing
+    relationship: joint_venture
+
+  - name: NASENI
+    country: Nigeria
+    supplies: Ammunition production factory, R&D
+    relationship: partner
+
+sources:
+  - { name: "DICON official site", url: "https://dicon.gov.ng/" }
+  - { name: "Military Africa — DICON resumes arms production", url: "https://www.military.africa/2024/02/dicon-resumes-arms-production-after-billion-dollar-funding/" }
+  - { name: "Military Africa — DICON partners D7G to ramp up arms production", url: "https://www.military.africa/2025/05/dicon-partners-d7g-to-ramp-up-arms-production/" }
+  - { name: "DefenceWeb — Nigeria moves to establish ammunition production factory", url: "https://defenceweb.co.za/african-news/nigeria-moves-to-establish-ammunition-production-factory-expand-local-defence-industry/" }
+  - { name: "The Nation — DICON set to commence gunpowder production", url: "https://thenationonlineng.net/dicon-set-to-commence-gunpowder-production-to-boost-ammunition-output/" }

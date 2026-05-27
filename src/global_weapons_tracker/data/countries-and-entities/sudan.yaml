@@ -1,0 +1,62 @@
+name: Sudan
+code: SD
+region: North Africa
+
+producers:
+  - name: Defence Industries System (DIS / formerly MIC)
+    type: state_owned
+    products:
+      - Small arms and light weapons
+      - Artillery and mortars
+      - Rocket and missile systems
+      - Armored vehicles and main battle tanks (Al Basheer MBT, Al Zubair 1/2)
+      - Ammunition of various calibers
+      - Military vehicles (4x4, trucks)
+      - Naval patrol boats (Elteb-1, Tamai-1)
+      - Communication and optical equipment
+    revenue: 2.0B
+    revenue_year: 2020
+    employees: 15000
+    notes: 3rd largest arms producer in Africa (after Egypt and South Africa); operates Yarmouk, Al Shaggara, Safat, Saria, and other complexes
+
+  - name: GIAD Conglomerate
+    type: state_owned
+    products:
+      - Military vehicles and trucks
+      - Heavy machinery
+      - Automotive services for SAF
+      - Metal industries
+    employees: 5000
+    notes: Controlled by DIS and SMT Engineering; produces weapons and vehicles for Sudanese Armed Forces
+
+  - name: Atyaf Industrial Complex
+    type: state_owned
+    products:
+      - Reconnaissance systems
+      - Communication systems
+      - Command and control systems
+      - Electronic warfare systems
+      - Radar systems
+    employees: 21
+    notes: Founded 2012; part of Electronic Technologies Group under DIS
+
+top_export_destinations:
+  - country: Various African states
+    notes: Small arms, ammunition, military vehicles displayed at IDEX
+  - country: Iran
+    notes: Historical technology partnership (35% of Yarmouk complex historically Iranian-owned)
+
+top_import_sources:
+  - country: China
+    notes: Small arms design copies, vehicle components
+  - country: Russia
+    notes: Aircraft, helicopter parts, technology
+  - country: Iran
+    notes: Design assistance, armored vehicle components (Boraq-2 IFV design)
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "EUR-Lex — EU Restrictive Measures re Sudan", url: "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202400384" }
+  - { name: "Small Arms Survey — Sudan's MIC at IDEX 2015", url: "https://radiotamazuj.org/uploads/media/58efac79a56fe.pdf" }
+  - { name: "Wikipedia — Yarmouk Military Industrial Complex", url: "https://en.wikipedia.org/wiki/Yarmouk_Military_Industrial_Complex" }
+  - { name: "Defence Industries System (MASAD) official site", url: "https://mic-sd.com/" }

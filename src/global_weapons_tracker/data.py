@@ -71,6 +71,21 @@ REGION_NAME_TO_SLUG = {
     "ar": "argentina",
     "brazil": "brazil",
     "br": "brazil",
+    "ethiopia": "ethiopia",
+    "et": "ethiopia",
+    "democratic republic of the congo": "dr-congo",
+    "dr congo": "dr-congo",
+    "congo dr": "dr-congo",
+    "congo": "dr-congo",
+    "cd": "dr-congo",
+    "sudan": "sudan",
+    "sd": "sudan",
+    "south sudan": "south-sudan",
+    "ss": "south-sudan",
+    "mali": "mali",
+    "ml": "mali",
+    "nigeria": "nigeria",
+    "ng": "nigeria",
 }
 """dict[str, str]: Mapping of country names / codes to YAML filename slugs."""
 

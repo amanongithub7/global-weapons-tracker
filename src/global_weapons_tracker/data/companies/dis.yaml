@@ -1,0 +1,63 @@
+name: Defence Industries System (DIS / formerly MIC)
+country: Sudan
+type: state_owned
+founded: 1993
+
+key_programs:
+  - name: Yarmouk Military Industrial Complex
+    type: heavy_weapons
+    status: operational
+    description: Produces Al Basheer MBT, Al Zubair 1/2 MBTs, Amir IFVs, self-propelled guns, small arms, artillery. 35% historically Iranian-owned.
+
+  - name: Al Shaggara Ammunition Plant
+    type: ammunition
+    status: operational
+    description: Small arms ammunition production. Established 1959.
+
+  - name: Safat Aviation Complex
+    type: aerospace
+    status: operational
+    description: Aircraft assembly and maintenance. Produced Safat 1 light aircraft.
+
+  - name: Elshaheed Ibrahim Shams el Deen Complex for Heavy Industries
+    type: heavy_industry
+    status: operational
+    description: Heavy weapons and artillery production
+
+  - name: Al Zarghaa Engineering Complex
+    type: electronics
+    status: operational
+    description: Electronics, communication equipment, and optical devices
+
+  - name: Atyaf Industrial Complex
+    type: electronics_warfare
+    status: operational
+    description: Reconnaissance, communications, command and control, and electronic warfare systems. Founded 2012.
+
+  - name: Saria Industrial Complex
+    type: special_munitions
+    status: operational
+    description: Specialized munitions and ordnance
+
+suppliers:
+  - name: GIAD Conglomerate
+    country: Sudan
+    supplies: Military vehicles, heavy machinery, automotive services
+    relationship: subsidiary
+
+  - name: SMT Engineering
+    country: Sudan
+    supplies: Shareholding and management of GIAD companies
+    relationship: partner
+
+  - name: Sanam Industrial Group (AIO)
+    country: Iran
+    supplies: Khatim-2 armored mortar carrier design, technology
+    relationship: historical_partner
+
+sources:
+  - { name: "EUR-Lex — EU Restrictive Measures re Sudan", url: "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202400384" }
+  - { name: "Small Arms Survey — Sudan's MIC at IDEX 2015", url: "https://radiotamazuj.org/uploads/media/58efac79a56fe.pdf" }
+  - { name: "Wikipedia — Yarmouk Military Industrial Complex", url: "https://en.wikipedia.org/wiki/Yarmouk_Military_Industrial_Complex" }
+  - { name: "Defence Industries System (MASAD) official site", url: "https://mic-sd.com/" }
+  - { name: "Atyaf Industrial Complex official site", url: "https://atyafcomplex.com/" }

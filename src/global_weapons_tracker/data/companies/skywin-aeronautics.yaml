@@ -1,0 +1,25 @@
+name: SkyWin Aeronautics Industries
+country: Ethiopia
+type: state_owned
+founded: 2025
+
+key_programs:
+  - name: Military UAV production
+    type: uav
+    status: active_production
+    description: Design and manufacture of unmanned aerial vehicles for military reconnaissance and strike missions
+
+  - name: Civilian UAV production
+    type: uav
+    status: active_production
+    description: Unmanned aerial vehicles for civilian applications including mapping and surveillance
+
+suppliers:
+  - name: Metals and Engineering Corporation (METEC)
+    country: Ethiopia
+    supplies: Parent organization, industrial infrastructure, engineering support
+    relationship: parent
+
+sources:
+  - { name: "ENA — PM Abiy Inaugurates SkyWin Aeronautics", url: "https://www.ena.et/web/eng/w/eng_6136717" }
+  - { name: "Military Africa — Ethiopia commissions ammunition factory", url: "https://www.military.africa/2025/03/ethiopia-commissions-ammunition-factory-to-ease-supply-chain/" }

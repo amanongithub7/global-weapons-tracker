@@ -1,0 +1,49 @@
+name: Metals and Engineering Corporation (METEC)
+country: Ethiopia
+type: state_owned
+founded: 2010
+
+key_programs:
+  - name: Homicho Ammunition Engineering Complex
+    type: ammunition
+    status: active_production
+    description: Produces ammunition for AK-47, DShK, sniper rifles, tank artillery, and mortars
+    export_clients:
+      - Various African states
+
+  - name: Gafat Armament Engineering Complex
+    type: small_arms
+    status: active_production
+    description: Produces AK-47 rifles, PK machine guns, 40mm grenade launchers, sniper scopes
+
+  - name: Bishoftu Automotive Engineering Industry
+    type: vehicle_overhaul
+    status: active_production
+    description: Overhaul and assembly center for T-55, T-62, T-72 tanks and armored vehicles; also assembles buses and trucks
+
+  - name: Dejen Aviation Engineering Industry
+    type: aerospace
+    status: operational
+    description: Aircraft and helicopter maintenance, repair, and overhaul
+
+  - name: SkyWin Aeronautics
+    type: uav
+    status: active_production
+    description: Military and civilian UAV manufacturing facility inaugurated March 2025
+
+suppliers:
+  - name: Spire Corporation
+    country: United States
+    supplies: Technology and engineering support
+    relationship: partner
+
+  - name: Alstom
+    country: France
+    supplies: Civil engineering and power technology
+    relationship: partner
+
+sources:
+  - { name: "Wikipedia — Metals and Engineering Corporation", url: "https://en.wikipedia.org/wiki/Metals_and_Engineering_Corporation" }
+  - { name: "GlobalSecurity — Ethiopian Defense Industrial Base", url: "https://premium.globalsecurity.org/military/world/ethiopia/industry.htm" }
+  - { name: "Military Africa — Ethiopia commissions ammunition factory", url: "https://www.military.africa/2025/03/ethiopia-commissions-ammunition-factory-to-ease-supply-chain/" }
+  - { name: "ENA — PM Abiy Inaugurates SkyWin Aeronautics", url: "https://www.ena.et/web/eng/w/eng_6136717" }

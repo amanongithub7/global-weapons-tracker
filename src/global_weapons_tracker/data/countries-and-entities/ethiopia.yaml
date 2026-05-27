@@ -1,0 +1,51 @@
+name: Ethiopia
+code: ET
+region: East Africa
+
+producers:
+  - name: Metals and Engineering Corporation (METEC)
+    type: state_owned
+    products:
+      - Small arms (AK-47 rifles, PK machine guns)
+      - Mortars and artillery ammunition
+      - T-55, T-62, T-72 tank overhaul and assembly
+      - Armored vehicle repair and upgrade
+      - Ammunition (Homicho Ammunition Engineering Complex)
+      - UAVs (via SkyWin Aeronautics subsidiary)
+    revenue: 1.2B
+    revenue_year: 2023
+    employees: 12400
+
+  - name: SkyWin Aeronautics Industries
+    type: state_owned
+    products:
+      - Military and civilian unmanned aerial vehicles
+      - Reconnaissance drones
+    employees: 500
+    notes: Inaugurated March 2025; part of METEC
+
+  - name: Homicho Ammunition Engineering Complex
+    type: state_owned
+    products:
+      - Kalashnikov rifle ammunition
+      - DShK heavy machine gun ammunition
+      - Sniper rifle ammunition
+      - Tank artillery ammunition
+      - Mortar rounds
+    employees: 2000
+    notes: Opened March 2025; $30M+ in export deals in first 3 months
+
+top_import_sources:
+  - country: China
+    notes: Wing Loong drones, armored vehicles, small arms
+  - country: Russia
+    notes: Mi-24 helicopters, tanks, legacy systems
+  - country: Turkey
+    notes: Bayraktar TB2 combat drones ($95M in 2021)
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "Reuters — Turkey expands armed drone sales", url: "https://www.reuters.com/world/middle-east/turkey-expands-armed-drone-sales-ethiopia-morocco-sources-2021-10-14/" }
+  - { name: "ENA — PM Abiy Inaugurates SkyWin Aeronautics", url: "https://www.ena.et/web/eng/w/eng_6136717" }
+  - { name: "Military Africa — Ethiopia commissions ammunition factory", url: "https://www.military.africa/2025/03/ethiopia-commissions-ammunition-factory-to-ease-supply-chain/" }
+  - { name: "Wikipedia — Metals and Engineering Corporation", url: "https://en.wikipedia.org/wiki/Metals_and_Engineering_Corporation" }

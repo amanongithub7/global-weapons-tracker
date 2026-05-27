@@ -1,0 +1,58 @@
+name: D7G Limited
+country: Nigeria
+type: private
+founded: 2023
+
+key_programs:
+  - name: DG103 Rifle Production
+    type: small_arms
+    status: active_production
+    description: AK-103 equivalent assault rifles manufactured in Kaduna for Nigerian and African markets
+
+  - name: Ammunition Production Line
+    type: ammunition
+    status: active_production
+    description: 7.62x39mm ammunition production capacity of 50 million rounds per annum
+
+  - name: Military Jetty Project
+    type: infrastructure
+    status: under_construction
+    description: Nigeria's first dedicated military jetty near Tin Can Island Port, Lagos. Supports arms import/export logistics. Launch June 2026. Creating 7,000 jobs.
+
+  - name: MRAP Vehicle Assembly
+    type: armored_vehicle
+    status: planned
+    description: 4x4 and 6x6 Mine-Resistant Ambush Protected vehicle assembly
+
+  - name: Tactical Drone Assembly
+    type: uav
+    status: planned
+    description: Assembly of tactical strike drones and anti-drone early warning systems
+
+  - name: Naval Ship Building
+    type: naval
+    status: planned
+    description: Production of military vessels from 10-100 meters, with TAIS Shipyard of Turkey
+
+  - name: Small Arms Portfolio Expansion
+    type: small_arms
+    status: planned
+    description: .308 calibre sniper rifles, 9mm pistols, automatic grenade launchers
+
+suppliers:
+  - name: Defence Industries Corporation of Nigeria (DICON)
+    country: Nigeria
+    supplies: State partnership, regulatory framework, ordnance factory facilities
+    relationship: joint_venture
+
+  - name: TAIS Shipyard
+    country: Turkey
+    supplies: Naval ship building technology
+    relationship: partner
+
+sources:
+  - { name: "D7G official site", url: "https://d7g.ng/" }
+  - { name: "Military Africa — DICON partners D7G to ramp up arms production", url: "https://www.military.africa/2025/05/dicon-partners-d7g-to-ramp-up-arms-production/" }
+  - { name: "Military Africa — DICON-D7G to launch Nigeria's first military jetty", url: "https://www.military.africa/2026/04/dicon-d7g-to-launch-nigerias-first-military-jetty-in-lagos/" }
+  - { name: "THISDAY — DICON-D7G Moves to Establish Nigeria's First Military Jetty", url: "https://www.thisdaylive.com/2026/03/05/dicon-d7g-moves-to-establish-nigerias-first-military-jetty-targets-7000-jobs/" }
+  - { name: "National Daily — DICON-D7G: Developing viable military industrial complex", url: "https://nationaldailyng.com/dicon-d7g-developing-viable-military-industrial-complex-in-nigeria/" }

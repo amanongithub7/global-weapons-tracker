@@ -1,0 +1,38 @@
+name: Mali
+code: ML
+region: West Africa
+
+producers:
+  - name: Norinco-Mali Joint Venture
+    type: foreign_partnership
+    products:
+      - Civil explosives plant (planned, with Auxin Chemical)
+      - Military equipment assembly (planned)
+    notes: Announced Nov 2024; Mali owns 51%. President Goita announced national defense industry plans for 2025.
+
+  - name: Markala Armor Workshop
+    type: state_owned
+    products:
+      - Armored vehicle repair and assembly
+    notes: Announced July 2024; converting Soviet-built factory into armor workshop
+
+top_import_sources:
+  - country: Russia
+    notes: T-72B3M tanks, BMP-3 IFVs, BTR-82A APCs, Su-25 jets, Mi-8/17/24 helicopters, L-39 Albatros, Tigr vehicles (2023-24)
+  - country: China
+    notes: Norinco VN2C IFVs, VP11 MRAPs, CS/VP14 APCs, Lynx ATVs, WZ-551 IFVs, Dongfeng EQ2050 vehicles (2021-24)
+  - country: Turkey
+    notes: Bayraktar TB2 and Akinci combat drones (2023-24)
+  - country: United Arab Emirates
+    notes: MRAPs, armored vehicles
+  - country: Brazil
+    notes: "Historical aircraft transfers (SIPRI: $18M TIV 2010-2020)"
+  - country: Qatar
+    notes: Storm APCs (2018)
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "Agenzia Nova — Mali's military junta aims to create a national defense industry", url: "https://www.agenzianova.com/en/news/Mali%27s-military-junta-aims-to-create-a-national-defense-industry/" }
+  - { name: "Military Africa — Malian Junta visits China, signs arms contract with Norinco", url: "https://www.military.africa/2024/09/malian-transitional-president-visits-norinco-ahead-of-china-africa-forum/" }
+  - { name: "DefenceWeb — Mali receives CS/VP14 armoured vehicles from China", url: "https://defenceweb.co.za/african-news/mali-receives-cs-vp14-armoured-vehicles-from-china/" }
+  - { name: "Sputnik Africa — Mali to open armor repair & assembly workshop", url: "https://en.sputniknews.africa/20240717/mali-to-open-armor-repair--assembly-workshop-in-ussr-built-factory-1067528924.html" }

@@ -1,0 +1,28 @@
+name: South Sudan
+code: SS
+region: East Africa
+
+producers:
+  - name: Defense Industries Holding Company South Sudan (DIHCSS)
+    type: state_owned
+    products:
+      - Garment and footwear (planned)
+      - Vehicle assembly (planned)
+      - Ammunition and explosives (planned)
+      - Ship building (planned)
+    employees: 50
+    notes: Founded 2020; planning stage only — no active production. Mandate to attract investors.
+
+top_import_sources:
+  - country: United Arab Emirates
+    notes: Armored vehicles (150 delivered in 2022 despite UN embargo)
+  - country: Ukraine
+    notes: Mi-24V attack helicopters (pre-2018 embargo)
+  - country: Turkey
+    notes: BRG-55 rifles, HUSAN MKA 556 rifles (diverted via illicit trade)
+
+sources:
+  - { name: "SIPRI Arms Transfers Database", url: "https://www.sipri.org/databases/armstransfers" }
+  - { name: "Radio Tamazuj — UN flags rise in South Sudan weapon influx", url: "https://www.radiotamazuj.org/en/news/article/un-flags-rise-in-south-sudan-weapon" }
+  - { name: "DIHCSS official site", url: "https://dihc-rss.com/" }
+  - { name: "UN Panel of Experts report on South Sudan", url: "https://www.radiotamazuj.org/en/news/article/un-experts-question-airworthiness-of-sspdf-attack-helicopters" }
