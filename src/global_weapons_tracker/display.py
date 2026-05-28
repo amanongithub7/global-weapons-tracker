@@ -1,76 +1,31 @@
 """CLI display (print) functions.
 
-Each ``cmd_*`` function corresponds to a CLI subcommand. They read
-data via :mod:`~global_weapons_tracker.data` and format it for
-terminal output.
+Each ``cmd_*`` function corresponds to a CLI subcommand. They
+consume data via :mod:`~global_weapons_tracker.api` and format it for
+terminal output.  No data-querying or file-resolution logic lives here.
 """
 
-import csv
 import sys
 
-from .data import (
-    COUNTRIES_DIR,
-    COMPANIES_DIR,
-    TRADE_FILE,
-    load_yaml,
-    find_country_file,
-    find_company_file,
-    guess_country_full_names,
-    resolve_country,
-)
+from . import api
 
 
 def cmd_trade(args):
-    """Query and display weapons trade flows filtered by origin / destination.
+    """Query and display weapons trade flows filtered by origin / destination."""
+    result = api.get_trade_flows(from_=args.from_country, to_=args.to_country)
+    flows = result["flows"]
 
-    Parameters
-    ----------
-    args : argparse.Namespace
-        Must provide ``args.from_country`` and ``args.to_country``
-        (either may be ``None``).
-
-    Side effects
-    ------------
-    Prints a formatted table of matching trade rows and exits with
-    status 1 if the trade CSV is missing.
-    """
-    if not TRADE_FILE.exists():
-        print(f"Trade data not found at {TRADE_FILE}")
-        sys.exit(1)
-
-    name_map = guess_country_full_names()
-    from_q = resolve_country(args.from_country, name_map)
-    to_q = resolve_country(args.to_country, name_map)
-
-    with open(TRADE_FILE) as f:
-        reader = csv.DictReader(f)
-        rows = list(reader)
-
-    matched = []
-    for row in rows:
-        from_match = (
-            not from_q
-            or from_q.lower() == row["from_country"].lower()
-            or from_q.lower() == row["from_code"].lower()
-        )
-        to_match = (
-            not to_q
-            or to_q.lower() == row["to_country"].lower()
-            or to_q.lower() == row["to_code"].lower()
-        )
-        if from_match and to_match:
-            matched.append(row)
-
-    if not matched:
+    if not flows:
         print("No trade flows found matching your query.")
         return
 
-    total = sum(int(r["estimated_value_usd"]) for r in matched)
+    total = result["total_value"]
+    source = result["source"]
     print(f"\n{'TRADE FLOWS':^60}")
     print(f"{'=' * 60}")
     print(f"  {'From':16s} -> {'To':16s} | {'Value (USD)':>14s} | Category")
     print(f"  {'-' * 56}")
-    for r in matched:
+    for r in flows:
         val = int(r["estimated_value_usd"])
         cat = r.get("category", "")
         print(
@@ -78,59 +33,31 @@ def cmd_trade(args):
         )
     print(f"  {'-' * 56}")
     print(f"  {'Total':16s}   {'':16s} | ${total:>12,}")
-    print(f"\nSource: {matched[0].get('source', 'SIPRI')}" if matched else "")
+    print(f"\nSource: {source}")
 
 
 def cmd_list(args):
-    """List available entities or companies by reading YAML filenames.
-
-    Parameters
-    ----------
-    args : argparse.Namespace
-        ``args.list_type`` must be one of ``"entities"``, ``"companies"``,
-        or ``"trade"``.
-
-    Side effects
-    ------------
-    Prints a numbered list of entity/company names (or a stub message
-    for trade).
-    """
+    """List available entities, companies, or trade flows."""
     if args.list_type == "entities":
-        files = sorted(COUNTRIES_DIR.glob("*.yaml"))
-        print(f"Available countries / regional entities ({len(files)}):")
-        for f in files:
-            data = load_yaml(f)
-            code = data.get("code", "")
-            print(f"  {data['name']:25s} ({code})")
+        entities = api.get_entity_list()
+        print(f"Available countries / regional entities ({len(entities)}):")
+        for e in entities:
+            print(f"  {e['name']:25s} ({e['code']})")
     elif args.list_type == "companies":
-        files = sorted(COMPANIES_DIR.glob("*.yaml"))
-        print(f"Available companies ({len(files)}):")
-        for f in files:
-            data = load_yaml(f)
-            print(f"  {data['name']}")
+        companies = api.get_company_list()
+        print(f"Available companies ({len(companies)}):")
+        for c in companies:
+            print(f"  {c['name']}")
     elif args.list_type == "trade":
         print("Trade flows (see `trade` command for filtered queries)")
 
 
 def cmd_country(args):
-    """Display entity / country details: producers, exports, imports, sources.
-
-    Parameters
-    ----------
-    args : argparse.Namespace
-        ``args.query`` is the entity name or code to look up.
-
-    Side effects
-    ------------
-    Prints a formatted report to stdout. Exits with status 1 if the
-    entity file cannot be found.
-    """
-    path = find_country_file(args.query)
-    if not path:
+    """Display entity / country details: producers, exports, imports, sources."""
+    data = api.get_entity(args.query)
+    if not data:
         print(f"Country not found: {args.query}")
-        print("Try: python weapons_tracker.py list countries")
         sys.exit(1)
-    data = load_yaml(path)
 
     print(f"\n{'=' * 60}")
     print(f"  {data['name']} ({data['code']}) - {data.get('region', '')}")
@@ -184,24 +111,11 @@ def cmd_country(args):
 
 
 def cmd_company(args):
-    """Display company details: programs, subsidiaries, suppliers, sources.
-
-    Parameters
-    ----------
-    args : argparse.Namespace
-        ``args.query`` is the company name to look up.
-
-    Side effects
-    ------------
-    Prints a formatted report to stdout. Exits with status 1 if the
-    company file cannot be found.
-    """
-    path = find_company_file(args.query)
-    if not path:
+    """Display company details: programs, subsidiaries, suppliers, sources."""
+    data = api.get_company(args.query)
+    if not data:
         print(f"Company not found: {args.query}")
-        print("Try: python weapons_tracker.py list companies")
         sys.exit(1)
-    data = load_yaml(path)
 
     print(f"\n{'=' * 60}")
     print(f"  {data['name']}")
